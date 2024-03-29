@@ -6,3 +6,7 @@
   @tailwind utilities;
   @tailwind variants;
 } 
+
+html,body {
+  background: #fff;
+}
