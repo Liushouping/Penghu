@@ -11,27 +11,24 @@ html,body {
   background: #fff;
 }
 
-:root {
-  --scrollbar-width: 200px; 
-  --scrollbar-track-color: #f0f0f0; 
-  --scrollbar-thumb-color: #888; 
-}
-
-/* WebKit */
+/* 整个滚动条 */
 ::-webkit-scrollbar {
-  width: var(--scrollbar-width);
+  width: 12px; /* 滚动条的宽度 */
 }
 
+/* 滚动槽，即滚动条的背景 */
 ::-webkit-scrollbar-track {
-  background-color: var(--scrollbar-track-color);
+  background-color: #f1f1f1;
 }
 
+/* 滚动条滑块 */
 ::-webkit-scrollbar-thumb {
-  background-color: var(--scrollbar-thumb-color);
+  background-color: #888;
+  border-radius: 6px; /* 滑块的圆角 */
+  border: 3px solid #f1f1f1; /* 滑块的边框 */
 }
 
-/* Firefox  */
-* {
-  scrollbar-width: 200px;
-  scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+/* 滚动条按钮（上下箭头部分） */
+::-webkit-scrollbar-button {
+  display: none; /* 隐藏滚动条按钮 */
 }

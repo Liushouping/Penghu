@@ -1,17 +1,45 @@
 <script setup>
-
+const isLoaded = ref(false);
+onMounted(() => {
+  setTimeout(() => {
+    isLoaded.value = true;
+  }, 500);
+});
 </script>
 
 <template>
   <div class="py-36">
-    <span class="text-gray-50 text-[18px] txt-thin">By the makers of Tailwind CSS</span>
-    <h5 class="text-gray-50 text-[48px] txt-Bold">
-      Build your next idea even faster.
-    </h5>
-    <h5 class="text-gray-950 text-[48px] txt-Bold">
-      “Best practices” don’t actually work.
-    </h5>
     
+    <div>
+      <div 
+      v-if="!isLoaded"
+      class="rounded-lg bg-surface-0 dark:bg-surface-800 mb-4 p-8">
+          <div class="flex mb-4">
+              <Skeleton shape="circle" size="4rem" class="mr-2"></Skeleton>
+              <div>
+                  <Skeleton width="10rem" class="mb-2"></Skeleton>
+                  <Skeleton width="5rem" class="mb-2"></Skeleton>
+                  <Skeleton height=".5rem"></Skeleton>
+              </div>
+          </div>
+          <Skeleton width="100%" height="150px"></Skeleton>
+          <!-- <div class="flex justify-between mt-4">
+              <Skeleton width="4rem" height="2rem"></Skeleton>
+              <Skeleton width="4rem" height="2rem"></Skeleton>
+          </div> -->
+      </div>
+
+      <div v-else>
+      <span class="text-gray-50 text-[18px] txt-thin">By the makers of CCSSSS</span>
+      <h5 class="text-gray-50 text-[48px] txt-Bold">
+        2024年你不能錯過的盛事，草帽一行人霸氣登場！
+      </h5>
+      <h5 class="text-gray-950 text-[48px] txt-Bold">
+        “Best practices” don’t actually work.
+      </h5>
+      </div>
+    </div>
+
     <div class="flex flex-row space-x-6 justify-around">
       <Image alt="Image" preview>
         <template #indicatoricon>

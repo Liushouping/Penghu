@@ -10,10 +10,10 @@
 					<img src="https://one-piece.com/common-one-piece/img/contents/header/logo.png" class="w-[90px]" alt="bbtaipei logo">
 				</NuxtLink>
                 <!--  -->
-                <ul class="flex flex-row space-x-4">
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
+                <ul class="flex flex-row space-x-4 txt-thin">
+                    <li>A href</li>
+                    <li>B href</li>
+                    <li>C href</li>
                 </ul>
 			</div>
         </nav>

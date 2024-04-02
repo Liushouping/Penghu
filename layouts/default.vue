@@ -5,7 +5,7 @@
             <slot/>
         </main>
         <PageFooter />
-        <!-- <GotoTop /> -->
+        <GotoTop />
     </div>
 </template>
 
