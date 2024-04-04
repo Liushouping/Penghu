@@ -16,7 +16,7 @@ onMounted(() => {
       class="rounded-lg bg-surface-0 dark:bg-surface-800 mb-4 p-8">
           <div class="flex mb-4">
               <Skeleton shape="circle" size="4rem" class="mr-2"></Skeleton>
-              <div>
+              <div>npm run
                   <Skeleton width="10rem" class="mb-2"></Skeleton>
                   <Skeleton width="5rem" class="mb-2"></Skeleton>
                   <Skeleton height=".5rem"></Skeleton>
