@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="py-24 flex flex-col space-y-20">
+  <div class="py-24 flex flex-col space-y-20 px-4 sm:px-0">
     <!-- 澎湖推薦店家 -->
     <div class="container mx-auto h-full">
       <!-- Title -->
