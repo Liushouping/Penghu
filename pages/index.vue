@@ -7,14 +7,18 @@
     <!-- 澎湖推薦店家 -->
     <div class="max-w-[1024px] w-full mx-auto h-full">
       <!-- Title -->
-      <div class="bg-yellow-300 w-full flex flex-row justify-between">
+      <div class="p-6 bg-yellow-300 w-full flex flex-row justify-between">
+        <!---->
+        <div>
+          <div class="w-[60px] h-[60px] bg-gray-200">
+            img
+          </div>
+        </div>
         <!---->
         <ul>
-          <li><h5>澎湖推薦店家</h5></li>
-          <li>-推薦活動系列-</li>
+          <li><h5 class="text-gray-50 text-[26px] txt-Bold" style="text-shadow: 0.1em 0.1em 0.2em black">澎湖推薦店家</h5></li>
+          <li class="text-gray-50 text-[14px] txt-Bold text-right" style="text-shadow: 0.1em 0.1em 0.2em black">-推薦活動系列-</li>
         </ul>
-        <!---->
-        <div>圖片</div>
       </div>
       <!-- Card -->
       <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -158,13 +162,17 @@
     <!-- 澎湖交通辦法 -->
     <div class="max-w-[1024px] w-full mx-auto h-full">
       <!-- Title -->
-      <div class="bg-yellow-300 w-full flex flex-row justify-between">
+      <div class="p-6 bg-yellow-300 w-full flex flex-row justify-between">
         <!---->
-        <div>圖片</div>
+        <div>
+          <div class="w-[60px] h-[60px] bg-gray-200">
+            img
+          </div>
+        </div>
         <!---->
         <ul>
-          <li><h5>澎湖交通辦法</h5></li>
-          <li>-精選交通系列-</li>
+          <li><h5 class="text-gray-50 text-[26px] txt-Bold" style="text-shadow: 0.1em 0.1em 0.2em black">澎湖交通辦法</h5></li>
+          <li class="text-gray-50 text-[14px] txt-Bold text-right" style="text-shadow: 0.1em 0.1em 0.2em black">-精選交通系列-</li>
         </ul>
       </div>
       <!-- Card -->
@@ -270,18 +278,37 @@
     <!-- 澎湖美食饗宴 -->
     <div class="max-w-[1024px] w-full mx-auto h-full">
       <!-- Title -->
-      <div class="bg-yellow-300 w-full flex flex-row justify-between">
+      <div class="p-6 bg-yellow-300 w-full flex flex-row justify-between">
         <!---->
-        <div>圖片</div>
+        <div>
+          <div class="w-[60px] h-[60px] bg-gray-200">
+            img
+          </div>
+        </div>
         <!---->
         <ul>
-          <li><h5>澎湖美食饗宴</h5></li>
-          <li>-精選美食系列-</li>
+          <li><h5 class="text-gray-50 text-[26px] txt-Bold" style="text-shadow: 0.1em 0.1em 0.2em black">澎湖美食饗宴</h5></li>
+          <li class="text-gray-50 text-[14px] txt-Bold text-right" style="text-shadow: 0.1em 0.1em 0.2em black">-精選美食系列-</li>
         </ul>
       </div>
       <!-- Card -->
       <div class="mt-4 grid grid-cols-1">
-        <div class="bg-gray-300 w-full h-[300px]">01</div>
+        <div class="bg-gray-50 w-full h-[300px] flex flex-col sm:flex-row">
+          <div class="w-1/3">
+            <div class="w-[60px] h-[60px] bg-gray-200">
+              img
+            </div>
+          </div>
+          <div class="w-2/3 relative">
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
 
