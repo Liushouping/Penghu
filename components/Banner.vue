@@ -3,7 +3,7 @@
 </script>
 <template>
     <div 
-    class="w-full h-[100vh] bg-gray-950 flex flex-col space-y-2 justify-start items-center bg-cover bg-bottom"
+    class="relative w-full h-[100vh] bg-gray-950 flex flex-col space-y-2 justify-start items-center bg-cover bg-bottom"
     style="background-image: url(/banner.jpg);">
         <div class="flex flex-row space-x-4 items-center pt-6">
             <p class="text-gray-50 text-[16px] sm:text-[32px] txt-bold flex flex-row items-center justify-center">
@@ -23,6 +23,16 @@
                 <li class="text-[36px] sm:text-[72px] txt-Bold">澎湖國際海上花火節</li>
                 <li class="text-[18px] sm:text-[28px] txt-Bold">航海王動畫25週年催燦之夜</li>
             </ul>
+        </div>
+
+        <div class="absolute right-4 top-4">
+            <div class="bg-gray-300 w-[60px] h-[60px]"></div>
+        </div>
+        <div class="absolute left-4 bottom-4">
+            <div class="bg-gray-300 w-[60px] h-[60px]"></div>
+        </div>
+        <div class="absolute right-4 bottom-4">
+            <div class="bg-gray-300 w-[60px] h-[60px]"></div>
         </div>
     </div>
 </template>
