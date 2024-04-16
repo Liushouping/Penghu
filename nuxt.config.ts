@@ -1,24 +1,56 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import path from 'path';
 export default defineNuxtConfig({
   devtools: { enabled: false },
   app: {
     head: {
-        title: 'Title',
-        meta: [
-            { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { name: 'description', content: 'Build your own UI library with the flexibility of Tailwind CSS and the convenience of PrimeVue components.' },
-            { name: 'robots', content: 'index,follow' },
-        ],
-    }
-  },
-  modules: ['@nuxtjs/tailwindcss', 'nuxt-primevue'],
-  primevue: {
-    cssLayerOrder: "tailwind-base, primevue, tailwind-utilities",
-    components: {
-      exclude: ["Editor", "Chart"]
+      htmlAttrs: {
+        lang: 'en',
+      },
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      title: 'title',
+      meta: [
+        { name: 'description', content: '123' },
+        { property: 'og:title', content: '123' },
+        { property: 'og:description', content: '123' },
+        { property: 'og:image', content: '/' }
+      ],
+      link: [
+        // {
+        //   rel: 'canonical', href: '/'
+        // },
+        // { 
+        //   rel: 'icon', type: 'image/png', href: '/favicon.png' 
+        // },
+        // { 
+        //   rel: 'apple-touch-icon', href: '/favicon.png' 
+        // },
+      ],
     },
   },
-  css: ["primevue/resources/themes/lara-light-indigo/theme.css"]
-});
+  modules: [
+    // '@nuxtjs/tailwindcss',
+    '@nuxt/ui'
+  ],
+  // site: {
+  //   url: 'https://bbtaipei.com',
+  //   name: 'BB TAIPEI',
+  // },
+  // gtag: {
+  //   id: '',
+  //   config: {
+  //     page_title: 'BBtaipei',
+
+  //   }
+  // },
+  css: ['~/assets/css/base.css'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+  plugins: [
+    
+  ],
+})
