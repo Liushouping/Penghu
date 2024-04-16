@@ -23,8 +23,8 @@
       <!-- Card -->
       <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <div class="w-full rounded overflow-hidden shadow-lg tracking-[0px]">
-          <div class="w-full h-300 relative">
-            <img src="https://via.placeholder.com/300" alt="Card image" class="w-full h-full object-cover">
+          <div class="w-full h-300 relative overflow-hidden">
+            <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
           <div class="px-2 py-4 bg-white">
             <div class="font-bold text-xl mb-2">暑假歐亞非｜折1萬</div>
@@ -40,8 +40,8 @@
         </div>
 
         <div class="w-full rounded overflow-hidden shadow-lg tracking-[0px]">
-          <div class="w-full h-300 relative">
-            <img src="https://via.placeholder.com/300" alt="Card image" class="w-full h-full object-cover">
+          <div class="w-full h-300 relative overflow-hidden">
+            <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
           <div class="px-2 py-4 bg-white">
             <div class="font-bold text-xl mb-2">暑假歐亞非｜折1萬</div>
@@ -57,8 +57,8 @@
         </div>
 
         <div class="w-full rounded overflow-hidden shadow-lg tracking-[0px]">
-          <div class="w-full h-300 relative">
-            <img src="https://via.placeholder.com/300" alt="Card image" class="w-full h-full object-cover">
+          <div class="w-full h-300 relative overflow-hidden">
+            <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
           <div class="px-2 py-4 bg-white">
             <div class="font-bold text-xl mb-2">暑假歐亞非｜折1萬</div>
@@ -74,8 +74,8 @@
         </div>
 
         <div class="w-full rounded overflow-hidden shadow-lg tracking-[0px]">
-          <div class="w-full h-300 relative">
-            <img src="https://via.placeholder.com/300" alt="Card image" class="w-full h-full object-cover">
+          <div class="w-full h-300 relative overflow-hidden">
+            <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
           <div class="px-2 py-4 bg-white">
             <div class="font-bold text-xl mb-2">暑假歐亞非｜折1萬</div>
@@ -91,8 +91,8 @@
         </div>
 
         <div class="w-full rounded overflow-hidden shadow-lg tracking-[0px]">
-          <div class="w-full h-300 relative">
-            <img src="https://via.placeholder.com/300" alt="Card image" class="w-full h-full object-cover">
+          <div class="w-full h-300 relative overflow-hidden">
+            <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
           <div class="px-2 py-4 bg-white">
             <div class="font-bold text-xl mb-2">暑假歐亞非｜折1萬</div>
@@ -108,8 +108,8 @@
         </div>
 
         <div class="w-full rounded overflow-hidden shadow-lg tracking-[0px]">
-          <div class="w-full h-300 relative">
-            <img src="https://via.placeholder.com/300" alt="Card image" class="w-full h-full object-cover">
+          <div class="w-full h-300 relative overflow-hidden">
+            <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
           <div class="px-2 py-4 bg-white">
             <div class="font-bold text-xl mb-2">暑假歐亞非｜折1萬</div>
@@ -125,8 +125,8 @@
         </div>
 
         <div class="w-full rounded overflow-hidden shadow-lg tracking-[0px]">
-          <div class="w-full h-300 relative">
-            <img src="https://via.placeholder.com/300" alt="Card image" class="w-full h-full object-cover">
+          <div class="w-full h-300 relative overflow-hidden">
+            <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
           <div class="px-2 py-4 bg-white">
             <div class="font-bold text-xl mb-2">暑假歐亞非｜折1萬</div>
@@ -142,8 +142,8 @@
         </div>
 
         <div class="w-full rounded overflow-hidden shadow-lg tracking-[0px]">
-          <div class="w-full h-300 relative">
-            <img src="https://via.placeholder.com/300" alt="Card image" class="w-full h-full object-cover">
+          <div class="w-full h-300 relative overflow-hidden">
+            <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
           <div class="px-2 py-4 bg-white">
             <div class="font-bold text-xl mb-2">暑假歐亞非｜折1萬</div>
@@ -178,8 +178,8 @@
       <!-- Card -->
       <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <div class="w-full rounded overflow-hidden shadow-lg tracking-[0px]">
-          <div class="w-full h-300 relative">
-            <img src="https://via.placeholder.com/300" alt="Card image" class="w-full h-full object-cover">
+          <div class="w-full h-300 relative overflow-hidden overflow-hidden">
+            <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150 transition-all hover:scale-150">
           </div>
           <div class="px-2 py-4 bg-white">
             <div class="font-bold text-xl mb-2">暑假歐亞非｜折1萬</div>
@@ -194,8 +194,8 @@
           </div>
         </div>
         <div class="w-full rounded overflow-hidden shadow-lg tracking-[0px]">
-          <div class="w-full h-300 relative">
-            <img src="https://via.placeholder.com/300" alt="Card image" class="w-full h-full object-cover">
+          <div class="w-full h-300 relative overflow-hidden">
+            <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
           <div class="px-2 py-4 bg-white">
             <div class="font-bold text-xl mb-2">暑假歐亞非｜折1萬</div>
@@ -210,8 +210,8 @@
           </div>
         </div>
         <div class="w-full rounded overflow-hidden shadow-lg tracking-[0px]">
-          <div class="w-full h-300 relative">
-            <img src="https://via.placeholder.com/300" alt="Card image" class="w-full h-full object-cover">
+          <div class="w-full h-300 relative overflow-hidden">
+            <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
           <div class="px-2 py-4 bg-white">
             <div class="font-bold text-xl mb-2">暑假歐亞非｜折1萬</div>
@@ -226,8 +226,8 @@
           </div>
         </div>
         <div class="w-full rounded overflow-hidden shadow-lg tracking-[0px]">
-          <div class="w-full h-300 relative">
-            <img src="https://via.placeholder.com/300" alt="Card image" class="w-full h-full object-cover">
+          <div class="w-full h-300 relative overflow-hidden">
+            <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
           <div class="px-2 py-4 bg-white">
             <div class="font-bold text-xl mb-2">暑假歐亞非｜折1萬</div>
@@ -242,8 +242,8 @@
           </div>
         </div>
         <div class="w-full rounded overflow-hidden shadow-lg tracking-[0px]">
-          <div class="w-full h-300 relative">
-            <img src="https://via.placeholder.com/300" alt="Card image" class="w-full h-full object-cover">
+          <div class="w-full h-300 relative overflow-hidden">
+            <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
           <div class="px-2 py-4 bg-white">
             <div class="font-bold text-xl mb-2">暑假歐亞非｜折1萬</div>
@@ -258,8 +258,8 @@
           </div>
         </div>
         <div class="w-full rounded overflow-hidden shadow-lg tracking-[0px]">
-          <div class="w-full h-300 relative">
-            <img src="https://via.placeholder.com/300" alt="Card image" class="w-full h-full object-cover">
+          <div class="w-full h-300 relative overflow-hidden">
+            <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
           <div class="px-2 py-4 bg-white">
             <div class="font-bold text-xl mb-2">暑假歐亞非｜折1萬</div>
