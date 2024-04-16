@@ -14,8 +14,8 @@
                 </svg>
             7/30</p>
             <ul class="text-gray-50">
-                <li class="text-[8px] sm:text-[12px] txt-thin">主場 試放場(馬公觀音亭園區) 煙火施放時間 | 21:00</li>
-                <li class="text-[8px] sm:text-[12px] txt-thin">離島區 煙火施放時間 | 21:00</li>
+                <li class="text-[8px] sm:text-[12px] txt-Medium">主場 試放場(馬公觀音亭園區) 煙火施放時間 | 21:00</li>
+                <li class="text-[8px] sm:text-[12px] txt-Medium">離島區 煙火施放時間 | 21:00</li>
             </ul>
         </div>
         <div>

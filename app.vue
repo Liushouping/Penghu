@@ -19,6 +19,11 @@
   font-weight: 300;
 }
 
+.txt-Medium {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 500;
+}
+
 .txt-Bold {
   font-family: "Noto Sans TC", sans-serif;
   font-weight: 900;
