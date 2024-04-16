@@ -3,9 +3,9 @@
 </script>
 
 <template>
-  <div class="py-24 flex flex-col space-y-20 px-4 sm:px-0">
+  <div class="py-24 flex flex-col space-y-20 px-4 lg:px-0">
     <!-- 澎湖推薦店家 -->
-    <div class="container mx-auto h-full">
+    <div class="max-w-[1200px] w-full mx-auto h-full">
       <!-- Title -->
       <div class="bg-yellow-300 w-full flex flex-row justify-between">
         <!---->
@@ -29,7 +29,7 @@
       </div>
     </div>
     <!-- 澎湖交通辦法 -->
-    <div class="container mx-auto h-full">
+    <div class="max-w-[1200px] w-full mx-auto h-full">
       <!-- Title -->
       <div class="bg-yellow-300 w-full flex flex-row justify-between">
         <!---->
@@ -51,7 +51,7 @@
       </div>
     </div>
     <!-- 澎湖美食饗宴 -->
-    <div class="container mx-auto h-full">
+    <div class="max-w-[1200px] w-full mx-auto h-full">
       <!-- Title -->
       <div class="bg-yellow-300 w-full flex flex-row justify-between">
         <!---->
