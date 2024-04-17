@@ -388,12 +388,12 @@
               img
             </div>
           </div>
-          <div class="w-full sm:w-2/3 relative">
-            <ul class="txt-Bold text-[16px]">
+          <div class="w-full sm:w-2/3 relative p-4">
+            <ul class="txt-Bold text-[14px]">
               <li>航海王冰淇淋霸氣登場，獨家贈品只送不賣！</li>
               <li class="text-red-400">三種口味 ( 北海道牛奶/抹茶/金箔 ) 180元/杯</li>
-              <li class="flex flex-row">購買冰淇淋 一支 即送 <p class="ml-1 text-red-400">魯夫五檔手機氣囊支架 (隨機款)</p></li>
-              <li class="flex flex-row">購買冰淇淋 二支 再送 <p class="ml-1 text-red-400">航海王迷你鋪克牌</p></li>
+              <li>購買冰淇淋 一支 即送 <span class="ml-1 text-red-400">魯夫五檔手機氣囊支架 (隨機款)</span></li>
+              <li>購買冰淇淋 二支 再送 <span class="ml-1 text-red-400">航海王迷你鋪克牌</span></li>
             </ul>
             <ul class="txt-thin text-[10px]">
               <li>每日各商售店限量提供贈品。恕無法挑款，每日數量送完為止</li>
