@@ -28,8 +28,8 @@
             <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
 
-          <div class="p-2 bg-white h-[200px]">
-          <div class="h-[125px]">
+          <div class="p-2 bg-white h-[175px]">
+          <div class="h-[100px]">
             <div class="font-bold text-xl mb-2">南海跳島｜七美+萬安</div>
             <p class="text-gray-700 text-[10px]">
               原價1190/人，通關密語『我是海迷』享專屬優惠，<br>
@@ -51,8 +51,8 @@
             <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
 
-          <div class="p-2 bg-white h-[200px]">
-          <div class="h-[125px]">
+          <div class="p-2 bg-white h-[175px]">
+          <div class="h-[100px]">
             <div class="font-bold text-xl mb-2">七美一日遊｜A浮潛 B透明獨木舟</div>
             <p class="text-gray-700 text-[10px]">
               原價1800/人，通關密語『我是海迷』享專屬優惠。<br>
@@ -75,8 +75,8 @@
             <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
 
-          <div class="p-2 bg-white h-[200px]">
-          <div class="h-[125px]">
+          <div class="p-2 bg-white h-[175px]">
+          <div class="h-[100px]">
             <div class="font-bold text-xl mb-2">本島不限次數水上活動</div>
             <p class="text-gray-700 text-[10px]">
               陽光沙灘水上活動。<br>
@@ -99,8 +99,8 @@
             <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
 
-          <div class="p-2 bg-white h-[200px]">
-          <div class="h-[125px]">
+          <div class="p-2 bg-white h-[175px]">
+          <div class="h-[100px]">
             <div class="font-bold text-xl mb-2">海洋牧場</div>
             <p class="text-gray-700 text-[10px]">
               烤蚵不限量+海鮮粥吃到飽。<br>
@@ -123,8 +123,8 @@
             <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
 
-          <div class="p-2 bg-white h-[200px]">
-          <div class="h-[125px]">
+          <div class="p-2 bg-white h-[175px]">
+          <div class="h-[100px]">
             <div class="font-bold text-xl mb-2">東海一日遊｜戀夏東海一日遊</div>
             <p class="text-gray-700 text-[10px]">
               巡航+海上戲水+海釣+午餐。可加購潮間帶+200<br>
@@ -147,8 +147,8 @@
             <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
 
-          <div class="p-2 bg-white h-[200px]">
-          <div class="h-[125px]">
+          <div class="p-2 bg-white h-[175px]">
+          <div class="h-[100px]">
             <div class="font-bold text-xl mb-2">東海一日遊｜鉅航A行程</div>
             <p class="text-gray-700 text-[10px]">
               巡航+水上活動或海釣2選1+潮間帶+午餐<br>
@@ -171,8 +171,8 @@
             <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
 
-          <div class="p-2 bg-white h-[200px]">
-          <div class="h-[125px]">
+          <div class="p-2 bg-white h-[175px]">
+          <div class="h-[100px]">
             <div class="font-bold text-xl mb-2">東海半日遊｜白猿坑東海半日</div>
             <p class="text-gray-700 text-[10px]">
               巡航+鮮蚵+贈小管+風茹茶飲<br>
@@ -195,8 +195,8 @@
             <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
 
-          <div class="p-2 bg-white h-[200px]">
-          <div class="h-[125px]">
+          <div class="p-2 bg-white h-[175px]">
+          <div class="h-[100px]">
             <div class="font-bold text-xl mb-2">自助 BBQ 吃到飽</div>
             <p class="text-gray-700 text-[10px]">
               大姐燒烤/南海燒烤/澎島之星/鳳姐燒烤。<br>
@@ -238,8 +238,8 @@
             <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150 transition-all hover:scale-150">
           </div>
 
-          <div class="p-2 bg-white h-[200px]">
-          <div class="h-[125px]">
+          <div class="p-2 bg-white h-[175px]">
+          <div class="h-[100px]">
             <div class="font-bold text-xl mb-2">布袋-澎湖來回 (平日)</div>
             <p class="text-gray-700 text-[10px]">
               原價1950/人。通關密語『我是海迷』享專屬優惠。
@@ -259,8 +259,8 @@
             <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
 
-          <div class="p-2 bg-white h-[200px]">
-          <div class="h-[125px]">
+          <div class="p-2 bg-white h-[175px]">
+          <div class="h-[100px]">
             <div class="font-bold text-xl mb-2">布袋-澎湖來回 (假日)</div>
             <p class="text-gray-700 text-[10px]">
               原價1950/人。通關密語『我是海迷』享專屬優惠。<br>
@@ -282,8 +282,8 @@
             <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
 
-          <div class="p-2 bg-white h-[200px]">
-          <div class="h-[125px]">
+          <div class="p-2 bg-white h-[175px]">
+          <div class="h-[100px]">
             <div class="font-bold text-xl mb-2">布袋-澎湖來回 (連假)</div>
             <p class="text-gray-700 text-[10px]">
               原價1950/人。通關密語『我是海迷』享專屬優惠。<br>
@@ -304,8 +304,8 @@
             <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
 
-          <div class="p-2 bg-white h-[200px]">
-          <div class="h-[125px]">
+          <div class="p-2 bg-white h-[175px]">
+          <div class="h-[100px]">
             <div class="font-bold text-xl mb-2">布袋-澎湖來回 (敬老/兒童票)</div>
             <p class="text-gray-700 text-[10px]">
               975/人 - 不分平/假/連假。兒童票限滿3歲-未滿12歲，敬老票限滿65歲才能購買。
@@ -325,8 +325,8 @@
             <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
 
-          <div class="p-2 bg-white h-[200px]">
-          <div class="h-[125px]">
+          <div class="p-2 bg-white h-[175px]">
+          <div class="h-[100px]">
             <div class="font-bold text-xl mb-2">布袋-澎湖來回 (保險票)</div>
             <p class="text-gray-700 text-[10px]">
               195/人 - 不分平/假/連假。限未滿3歲才能購買。
@@ -346,8 +346,8 @@
             <img src="https://static.liontech.com.tw/cmspic/PIC2211-000080/M_PIC2211-000080.jpg" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
 
-          <div class="p-2 bg-white h-[200px]">
-          <div class="h-[125px]">
+          <div class="p-2 bg-white h-[175px]">
+          <div class="h-[100px]">
             <div class="font-bold text-xl mb-2">馬公機車</div>
             <p class="text-gray-700 text-[10px]">
               原價500/天/台。通關密語『我是海迷』享專屬優惠。<br>
