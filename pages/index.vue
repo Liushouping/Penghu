@@ -382,20 +382,20 @@
       </div>
       <!-- Card -->
       <div class="mt-4 grid grid-cols-1">
-        <div class="bg-gray-50 w-full h-full sm:h-[200px] flex flex-col sm:flex-row">
+        <div class="bg-gray-50 w-full h-full flex flex-col sm:flex-row">
           <div class="w-full sm:w-1/3">
             <div class="w-[60px] h-[60px] bg-gray-200">
               img
             </div>
           </div>
           <div class="w-full sm:w-2/3 relative p-4">
-            <ul class="txt-Bold text-[14px]">
-              <li>航海王冰淇淋霸氣登場，獨家贈品只送不賣！</li>
-              <li class="text-red-400">三種口味 ( 北海道牛奶/抹茶/金箔 ) 180元/杯</li>
-              <li>購買冰淇淋 一支 即送 <span class="ml-1 text-red-400">魯夫五檔手機氣囊支架 (隨機款)</span></li>
-              <li>購買冰淇淋 二支 再送 <span class="ml-1 text-red-400">航海王迷你鋪克牌</span></li>
+            <ul class="txt-Bold text-[12px]">
+              <li class="text-gray-900">航海王冰淇淋霸氣登場，獨家贈品只送不賣！</li>
+              <li class="mt-2 text-[14px] text-red-400">三種口味 ( 北海道牛奶/抹茶/金箔 ) 180元/杯</li>
+              <li class="text-gray-900">購買冰淇淋 <span class="text-[14px]">一支</span> 即送 <span class="ml-1 text-[16px] text-red-400">魯夫五檔手機氣囊支架 (隨機款)</span></li>
+              <li class="text-gray-900">購買冰淇淋 <span class="text-[14px]">二支</span> 再送 <span class="ml-1 text-[16px] text-red-400">航海王迷你鋪克牌</span></li>
             </ul>
-            <ul class="txt-thin text-[10px]">
+            <ul class="mt-8 txt-thin text-[10px]">
               <li>每日各商售店限量提供贈品。恕無法挑款，每日數量送完為止</li>
               <li>備註：贈品無法轉售，每日各店數量有限 (昇恆昌三號港主題商售店無販售)</li>
               <li>主辦單位保有解釋、說明及更動之權利</li>
