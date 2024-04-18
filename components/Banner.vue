@@ -5,7 +5,7 @@
     <div 
     class="relative w-full h-[100vh] bg-gray-950 flex flex-col space-y-2 justify-start items-center bg-cover bg-bottom"
     style="background-image: url(/banner.jpg);">
-        <div class="flex flex-row space-x-4 items-center pt-6">
+        <div class="flex flex-row space-x-4 justify-start items-center pt-6">
             <p class="text-gray-50 text-[16px] sm:text-[32px] txt-bold flex flex-row items-center justify-center">
                 <span class="ba pr-2">2024</span>
                 5/2
@@ -25,14 +25,18 @@
             </ul>
         </div>
 
+        <div class="absolute bottom-0">
+            <img class="w-[960px] aspect-[3/2] object-contain" src="/25th.png">
+        </div>
+
         <div class="absolute right-4 top-4">
-            <div class="bg-gray-300 w-[60px] h-[60px]"></div>
+            <img class="w-[180px] aspect-[3/2] object-contain" src="/penghu.png">
         </div>
         <div class="absolute left-4 bottom-4">
-            <div class="bg-gray-300 w-[60px] h-[60px]"></div>
+            <img class="w-[180px] aspect-[3/2] object-contain" src="/toei.png">
         </div>
         <div class="absolute right-4 bottom-4">
-            <div class="bg-gray-300 w-[60px] h-[60px]"></div>
+            <img class="w-[180px] aspect-[3/2] object-contain" src="/onepiece.png">
         </div>
     </div>
 </template>

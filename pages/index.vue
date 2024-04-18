@@ -7,17 +7,15 @@
     <!-- 澎湖推薦店家 -->
     <div class="max-w-[1024px] w-full mx-auto h-full">
       <!-- Title -->
-      <div class="p-6 bg-yellow-300 w-full flex flex-row justify-between">
+      <div class="relative p-6 bg-[#DBC24F] w-full flex flex-row justify-between">
         <!---->
-        <div>
-          <div class="w-[60px] h-[60px] bg-gray-200">
-            img
-          </div>
+        <div class="h-[160px]">
+          <img class="w-[240px] aspect-[3/2] object-contain" src="/info-1.png">
         </div>
         <!---->
-        <ul>
-          <li><h5 class="text-gray-50 text-[26px] txt-Bold" style="text-shadow: 0.1em 0.1em 0.2em black">澎湖推薦店家</h5></li>
-          <li class="text-gray-50 text-[14px] txt-Bold text-right" style="text-shadow: 0.1em 0.1em 0.2em black">-推薦活動系列-</li>
+        <ul class="flex flex-col justify-center items-end tracking-[2px]">
+          <li><h5 class="text-gray-50 text-[26px] sm:text-[36px] txt-Bold" style="text-shadow: 0.1em 0.1em 0.2em black">澎湖推薦店家</h5></li>
+          <li class="text-gray-50 text-[14px] txt-Bold text-right" style="text-shadow: 0.1em 0.1em 0.2em black">-精選活動系列-</li>
         </ul>
       </div>
       <!-- Card -->
@@ -217,16 +215,16 @@
     <!-- 澎湖交通辦法 -->
     <div class="max-w-[1024px] w-full mx-auto h-full">
       <!-- Title -->
-      <div class="p-6 bg-yellow-300 w-full flex flex-row justify-between">
+      <div class="relative p-6 bg-[#DBC24F] w-full flex flex-row justify-between">
         <!---->
-        <div>
-          <div class="w-[60px] h-[60px] bg-gray-200">
-            img
+        <div class="h-[160px]">
+          <div class="absolute -top-12">
+            <img class="w-[360px] aspect-[3/2] object-contain" src="/info-2.png">
           </div>
         </div>
         <!---->
-        <ul>
-          <li><h5 class="text-gray-50 text-[26px] txt-Bold" style="text-shadow: 0.1em 0.1em 0.2em black">澎湖交通辦法</h5></li>
+        <ul class="flex flex-col justify-center items-end tracking-[2px]">
+          <li><h5 class="text-gray-50 text-[26px] sm:text-[36px] txt-Bold" style="text-shadow: 0.1em 0.1em 0.2em black">澎湖交通辦法</h5></li>
           <li class="text-gray-50 text-[14px] txt-Bold text-right" style="text-shadow: 0.1em 0.1em 0.2em black">-精選交通系列-</li>
         </ul>
       </div>
@@ -367,28 +365,24 @@
     <!-- 澎湖美食饗宴 -->
     <div class="max-w-[1024px] w-full mx-auto h-full">
       <!-- Title -->
-      <div class="p-6 bg-yellow-300 w-full flex flex-row justify-between">
+      <div class="relative p-6 bg-[#DBC24F] w-full flex flex-row justify-between">
         <!---->
-        <div>
-          <div class="w-[60px] h-[60px] bg-gray-200">
-            img
-          </div>
+        <div class="h-[160px]">
+          <img class="w-[240px] aspect-[3/2] object-contain" src="/info-3.png">
         </div>
         <!---->
-        <ul>
-          <li><h5 class="text-gray-50 text-[26px] txt-Bold" style="text-shadow: 0.1em 0.1em 0.2em black">澎湖美食饗宴</h5></li>
+        <ul class="flex flex-col justify-center items-end tracking-[2px]">
+          <li><h5 class="text-gray-50 text-[26px] sm:text-[36px] txt-Bold" style="text-shadow: 0.1em 0.1em 0.2em black">澎湖美食饗宴</h5></li>
           <li class="text-gray-50 text-[14px] txt-Bold text-right" style="text-shadow: 0.1em 0.1em 0.2em black">-精選美食系列-</li>
         </ul>
       </div>
       <!-- Card -->
       <div class="mt-4 grid grid-cols-1">
-        <div class="bg-gray-50 w-full h-full flex flex-col sm:flex-row">
-          <div class="w-full sm:w-1/3">
-            <div class="w-[60px] h-[60px] bg-gray-200">
-              img
-            </div>
+        <div class="bg-gray-50 w-full h-full min-h-[360px] flex flex-col sm:flex-row">
+          <div class="w-full sm:w-1/3 flex justify-center items-center">
+            <img class="w-[360px] aspect-[3/2] object-contain" src="/info-4.png">
           </div>
-          <div class="w-full sm:w-2/3 relative p-4">
+          <div class="relative w-full sm:w-2/3 relative p-4 flex flex-col justify-center items-start">
             <ul class="txt-Bold text-[12px]">
               <li class="text-gray-900">航海王冰淇淋霸氣登場，獨家贈品只送不賣！</li>
               <li class="mt-2 text-[14px] text-red-400">三種口味 ( 北海道牛奶/抹茶/金箔 ) 180元/杯</li>
@@ -400,6 +394,14 @@
               <li>備註：贈品無法轉售，每日各店數量有限 (昇恆昌三號港主題商售店無販售)</li>
               <li>主辦單位保有解釋、說明及更動之權利</li>
             </ul>
+
+            <div class="absolute right-4 top-4">
+              <img class="w-[210px] aspect-[3/2] object-contain" src="/info-5.png">
+            </div>
+            <div class="absolute -right-12 bottom-0">
+              <img class="w-[320px] aspect-[3/2] object-contain" src="/info-6.png">
+            </div>
+
           </div>
         </div>
       </div>
