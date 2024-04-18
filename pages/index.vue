@@ -381,11 +381,12 @@
       </div>
       <!-- Card -->
       <div class="mt-4 grid grid-cols-1">
-        <div class="bg-gray-50 w-full h-full min-h-[360px] flex flex-col sm:flex-row">
-          <div class="w-full sm:w-1/3 flex justify-center items-center">
+        <div class="bg-gray-50 w-full h-full min-h-[600px] sm:min-h-[360px] flex flex-col sm:flex-row">
+          <div class="w-full sm:w-1/3 flex justify-center items-center pt-6">
             <img class="w-[360px] aspect-[3/2] object-contain" src="/info-4.png">
           </div>
-          <div class="relative w-full sm:w-2/3 relative p-4 flex flex-col justify-center items-start">
+          <div class="relative w-full sm:w-2/3 h-full relative p-4 flex flex-col justify-center items-start">
+            <div class="mb-24">
             <ul class="txt-Bold text-[12px]">
               <li class="text-gray-900">航海王冰淇淋霸氣登場，獨家贈品只送不賣！</li>
               <li class="mt-2 text-[14px] text-red-400">三種口味 ( 北海道牛奶/抹茶/金箔 ) 180元/杯</li>
@@ -397,12 +398,13 @@
               <li>備註：贈品無法轉售，每日各店數量有限 (昇恆昌三號港主題商售店無販售)</li>
               <li>主辦單位保有解釋、說明及更動之權利</li>
             </ul>
-
-            <div class="absolute right-4 top-4">
-              <img class="w-[210px] aspect-[3/2] object-contain" src="/info-5.png">
             </div>
-            <div class="absolute -right-12 bottom-0">
-              <img class="w-[320px] aspect-[3/2] object-contain" src="/info-6.png">
+
+            <div class="absolute right-0 sm:right-4 -bottom-0 sm:top-4">
+              <img class="w-[160px] aspect-[3/2] object-contain" src="/info-5.png">
+            </div>
+            <div class="absolute left-0 sm:left-96 bottom-0">
+              <img class="w-[180px] sm:w-[320px] aspect-[3/2] object-contain" src="/info-6.png">
             </div>
 
           </div>
