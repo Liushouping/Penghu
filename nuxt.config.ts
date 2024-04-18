@@ -8,11 +8,11 @@ export default defineNuxtConfig({
       },
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      title: 'title',
+      title: '航海王動畫25週年璀璨之夜 ',
       meta: [
-        { name: 'description', content: '123' },
-        { property: 'og:title', content: '123' },
-        { property: 'og:description', content: '123' },
+        { name: 'description', content: '2024年你不能錯過的盛事，草帽一行人霸氣登場！' },
+        { property: 'og:title', content: '航海王動畫25週年璀璨之夜 ' },
+        { property: 'og:description', content: '2024年你不能錯過的盛事，草帽一行人霸氣登場！' },
         { property: 'og:image', content: '/' }
       ],
       link: [
