@@ -9,13 +9,13 @@
       <!-- Title -->
       <div class="relative p-6 bg-[#DBC24F] w-full flex flex-row justify-between">
         <!---->
-        <div class="h-[160px]">
-          <img class="w-[240px] aspect-[3/2] object-contain" src="/info-1.png">
+        <div class="h-[160px] flex justify-center items-center">
+          <img class="w-[120px] sm:w-[240px] aspect-[1/1] sm:aspect-[3/2] object-contain" src="/info-1.png">
         </div>
         <!---->
         <ul class="flex flex-col justify-center items-end tracking-[2px]">
-          <li><h5 class="text-gray-50 text-[26px] sm:text-[36px] txt-Bold" style="text-shadow: 0.1em 0.1em 0.2em black">澎湖推薦店家</h5></li>
-          <li class="text-gray-50 text-[18px] txt-Bold text-right" style="text-shadow: 0.1em 0.1em 0.2em black">-精選活動系列-</li>
+          <li><h5 class="text-gray-50 text-[26px] sm:text-[36px] txt-Bold" style="text-shadow: 0.1em 0.1em 0.2em #3C3C3C">澎湖推薦店家</h5></li>
+          <li class="text-gray-50 text-[18px] txt-Bold text-right" style="text-shadow: 0.1em 0.1em 0.2em #3C3C3C">-精選活動系列-</li>
         </ul>
       </div>
       <!-- Card -->
@@ -236,14 +236,14 @@
       <div class="relative p-6 bg-[#DBC24F] w-full flex flex-row justify-between">
         <!---->
         <div class="h-[160px]">
-          <div class="absolute -top-12">
-            <img class="w-[360px] aspect-[3/2] object-contain" src="/info-2.png">
+          <div class="absolute sm:-top-12">
+            <img class="w-[160px] sm:w-[360px] aspect-[1/1] sm:aspect-[3/2] object-contain" src="/info-2.png">
           </div>
         </div>
         <!---->
         <ul class="flex flex-col justify-center items-end tracking-[2px]">
-          <li><h5 class="text-gray-50 text-[26px] sm:text-[36px] txt-Bold" style="text-shadow: 0.1em 0.1em 0.2em black">澎湖交通辦法</h5></li>
-          <li class="text-gray-50 text-[18px] txt-Bold text-right" style="text-shadow: 0.1em 0.1em 0.2em black">-精選交通系列-</li>
+          <li><h5 class="text-gray-50 text-[26px] sm:text-[36px] txt-Bold" style="text-shadow: 0.1em 0.1em 0.2em #3C3C3C">澎湖交通辦法</h5></li>
+          <li class="text-gray-50 text-[18px] txt-Bold text-right" style="text-shadow: 0.1em 0.1em 0.2em #3C3C3C">-精選交通系列-</li>
         </ul>
       </div>
       <!-- Card -->
@@ -407,13 +407,13 @@
       <!-- Title -->
       <div class="relative p-6 bg-[#DBC24F] w-full flex flex-row justify-between">
         <!---->
-        <div class="h-[160px]">
-          <img class="w-[240px] aspect-[3/2] object-contain" src="/info-3.png">
+        <div class="h-[160px] flex justify-center items-center">
+          <img class="w-[120px] sm:w-[240px] aspect-[1/1] sm:aspect-[3/2] object-contain" src="/info-3.png">
         </div>
         <!---->
         <ul class="flex flex-col justify-center items-end tracking-[2px]">
-          <li><h5 class="text-gray-50 text-[26px] sm:text-[36px] txt-Bold" style="text-shadow: 0.1em 0.1em 0.2em black">澎湖美食饗宴</h5></li>
-          <li class="text-gray-50 text-[18px] txt-Bold text-right" style="text-shadow: 0.1em 0.1em 0.2em black">-精選美食系列-</li>
+          <li><h5 class="text-gray-50 text-[26px] sm:text-[36px] txt-Bold" style="text-shadow: 0.1em 0.1em 0.2em #3C3C3C">澎湖美食饗宴</h5></li>
+          <li class="text-gray-50 text-[18px] txt-Bold text-right" style="text-shadow: 0.1em 0.1em 0.2em #3C3C3C">-精選美食系列-</li>
         </ul>
       </div>
       <!-- Card -->
