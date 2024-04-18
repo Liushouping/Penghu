@@ -5,7 +5,7 @@
     <div 
     class="relative w-full h-[75vh] sm:h-[100vh] bg-gray-950 flex flex-col space-y-2 justify-start items-center bg-cover bg-bottom"
     style="background-image: url(/banner.jpg);">
-        <div class="flex flex-row space-x-4 justify-start items-center pt-12 sm:pt-6">
+        <div class="flex flex-row space-x-4 justify-start items-center pt-20 md:pt-28 sm::pt-6">
             <p class="text-gray-50 text-[16px] sm:text-[32px] txt-bold flex flex-row items-center justify-center">
                 <span class="ba pr-2">2024</span>
                 5/2
@@ -29,14 +29,14 @@
             <img class="w-[960px] aspect-[3/2] object-contain" src="/25th.png">
         </div>
 
-        <div class="absolute right-0 top-4">
-            <img class="w-[90px] sm:w-[180px] aspect-[3/2] object-contain" src="/penghu.png">
+        <div class="absolute -right-4 sm:right-0 top-4 z-10">
+            <img class="w-[75px] md:w-[120px] sm:w-[180px] aspect-[3/2] object-contain" src="/penghu.png">
         </div>
-        <div class="absolute left-4 bottom-4">
-            <img class="w-[90px] sm:w-[180px] aspect-[3/2] object-contain" src="/toei.png">
+        <div class="absolute -left-2 sm:left-4 bottom-4 z-10">
+            <img class="w-[75px] md:w-[120px] sm:w-[180px] aspect-[3/2] object-contain" src="/toei.png">
         </div>
-        <div class="absolute right-4 bottom-4">
-            <img class="w-[90px] sm:w-[180px] aspect-[3/2] object-contain" src="/onepiece.png">
+        <div class="absolute right-2 sm:right-4 bottom-4 z-10">
+            <img class="w-[75px] md:w-[120px] sm:w-[180px] aspect-[3/2] object-contain" src="/onepiece.png">
         </div>
     </div>
 </template>
