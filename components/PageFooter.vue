@@ -2,7 +2,7 @@
 const Year = new Date().getFullYear();
 </script>
 <template>
-    <div class="w-full h-full flex justify-center items-center bg-[#DBC24F]">
+    <div class="relative w-full h-full flex justify-center items-center bg-[#DBC24F] z-30">
         <div class="max-w-[1024px] w-full px-4 xl:px-0 py-20">
             <ul class="flex flex-col space-y-6">
                 <li class="txt-thin text-[12px] text-gray-950">海迷禮</li>

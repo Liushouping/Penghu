@@ -3,9 +3,9 @@
 </script>
 
 <template>
-  <div class="py-24 flex flex-col space-y-20 px-4 lg:px-0">
+  <div class="relative py-24 flex flex-col space-y-20 px-4 lg:px-0">
     <!-- 澎湖推薦店家 -->
-    <div class="max-w-[1024px] w-full mx-auto h-full">
+    <div class="relative max-w-[1024px] w-full mx-auto h-full z-30">
       <!-- Title -->
       <div class="relative p-6 bg-[#DBC24F] w-full flex flex-row justify-between">
         <!---->
@@ -213,7 +213,7 @@
       </div>
     </div>
     <!-- 澎湖交通辦法 -->
-    <div class="max-w-[1024px] w-full mx-auto h-full">
+    <div class="relative max-w-[1024px] w-full mx-auto h-full">
       <!-- Title -->
       <div class="relative p-6 bg-[#DBC24F] w-full flex flex-row justify-between">
         <!---->
@@ -340,7 +340,7 @@
         </div>
         <div class="w-full rounded overflow-hidden shadow-lg tracking-[0px]">
 
-          <div class="w-full h-[200px] relative overflow-hidden">
+          <div class="w-full h-[200px] relative overflow-hidden z-30">
             <img src="/p-14.png" alt="Card image" class="w-full h-full object-cover transition-all hover:scale-150">
           </div>
 
@@ -363,7 +363,10 @@
       </div>
     </div>
     <!-- 澎湖美食饗宴 -->
-    <div class="max-w-[1024px] w-full mx-auto h-full">
+    <div class="relative max-w-[1024px] w-full mx-auto h-full z-30">
+      <div class="absolute -top-80 -right-16 z-0">
+        <img class="w-[480px] aspect-[3/2] object-contain" src="/ab-1.png">
+      </div>
       <!-- Title -->
       <div class="relative p-6 bg-[#DBC24F] w-full flex flex-row justify-between">
         <!---->
@@ -406,8 +409,18 @@
         </div>
       </div>
     </div>
-
-
+    <!-- left -->
+    <div class="absolute bottom-[960px] -left-24 z-0">
+      <img class="w-full" src="/ab-4.png">
+    </div>
+    <!-- right -->
+    <div class="absolute bottom-[960px] -right-60 z-0">
+      <img class="w-full" src="/ab-3.png">
+    </div>
+    <!-- bottom -->
+    <div class="absolute -bottom-32 right-0 z-0">
+      <img class="w-full" src="/ab-2.png">
+    </div>
   </div>
 </template>
 
