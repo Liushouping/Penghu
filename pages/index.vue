@@ -402,7 +402,7 @@
     <!-- 澎湖美食饗宴 -->
     <div class="relative max-w-[1024px] w-full mx-auto h-full z-20">
       <div class="absolute -top-80 -right-16 z-0">
-        <img class="w-[480px] aspect-[3/2] object-contain" src="/ab-1.png">
+        <img class="w-[480px] aspect-[3/2] object-contain" src="/ab-1.webp">
       </div>
       <!-- Title -->
       <div class="relative p-6 bg-[#DBC24F] w-full flex flex-row justify-between">
@@ -450,15 +450,15 @@
     </div>
     <!-- left -->
     <div class="absolute bottom-[960px] -left-24 z-0">
-      <img class="w-full" src="/ab-4.png">
+      <img class="w-full" src="/ab-4.webp">
     </div>
     <!-- right -->
     <div class="absolute bottom-[960px] -right-60 z-0">
-      <img class="w-full" src="/ab-3.png">
+      <img class="w-full" src="/ab-3.webp">
     </div>
     <!-- bottom -->
     <div class="absolute -bottom-36 right-0 z-0">
-      <img class="w-full" src="/ab-2.png">
+      <img class="w-full" src="/ab-2.webp">
     </div>
   </div>
 </template>
