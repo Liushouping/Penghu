@@ -17,7 +17,7 @@ onBeforeUnmount(() => {
 <template>
 	<div 
 	:class="{ 'opacity-100 right-0': GoTop }"
-	class="fixed bottom-[20%] -right-20 w-[40px] sm:w-[50px] h-[190px] sm:h-[240px] transition-all duration-500 cursor-pointer opacity-0 z-30 bg-gray-50 flex justify-center items-center rounded-tl-2xl rounded-bl-2xl drop-shadow-2xl"
+	class="fixed bottom-[20%] -right-20 w-[40px] sm:w-[50px] h-[150px] sm:h-[240px] transition-all duration-500 cursor-pointer opacity-0 z-30 bg-gray-50 flex justify-center items-center rounded-tl-2xl rounded-bl-2xl drop-shadow-2xl"
 	>
 		<ul class="flex flex-col justify-center items-center space-y-6">
 			<li class="flex flex-col justify-center items-center space-y-1">
