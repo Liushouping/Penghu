@@ -19,12 +19,12 @@ export default defineNuxtConfig({
         // {
         //   rel: 'canonical', href: '/'
         // },
-        // { 
-        //   rel: 'icon', type: 'image/png', href: '/favicon.png' 
-        // },
-        // { 
-        //   rel: 'apple-touch-icon', href: '/favicon.png' 
-        // },
+        { 
+          rel: 'icon', type: 'image/png', href: '/favicon.png' 
+        },
+        { 
+          rel: 'apple-touch-icon', href: '/favicon.png' 
+        },
       ],
     },
   },
