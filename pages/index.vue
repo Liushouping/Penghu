@@ -19,7 +19,8 @@
         </ul>
       </div>
       <!-- Card -->
-      <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div  
+      class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
 
         <a href="/">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
@@ -236,8 +237,8 @@
       <div class="relative p-6 bg-[#DBC24F] w-full flex flex-row justify-between">
         <!---->
         <div class="h-[160px]">
-          <div class="absolute sm:-top-12">
-            <img class="w-[160px] sm:w-[360px] aspect-[1/1] sm:aspect-[3/2] object-contain" src="/info-2.png">
+          <div class="absolute sm:-top-12 mt-4 sm:mt-0">
+            <img class="w-[120px] sm:w-[360px] aspect-[1/1] sm:aspect-[3/2] object-contain" src="/info-2.png">
           </div>
         </div>
         <!---->
@@ -426,9 +427,9 @@
             <div class="mb-24">
             <ul class="txt-Bold text-[12px]">
               <li class="text-gray-900">航海王冰淇淋霸氣登場，獨家贈品只送不賣！</li>
-              <li class="mt-2 text-[18px] text-red-400">三種口味 ( 北海道牛奶/抹茶/金箔 ) 180元/杯</li>
-              <li class="text-gray-900">購買冰淇淋 <span class="text-[18px]">一支</span> 即送 <span class="ml-1 text-[16px] text-red-400">魯夫五檔手機氣囊支架 (隨機款)</span></li>
-              <li class="text-gray-900">購買冰淇淋 <span class="text-[18px]">二支</span> 再送 <span class="ml-1 text-[16px] text-red-400">航海王迷你鋪克牌</span></li>
+              <li class="mt-2 text-[14px] sm:text-[18px] text-red-400">三種口味 ( 北海道牛奶/抹茶/金箔 ) 180元/杯</li>
+              <li class="text-gray-900">購買冰淇淋 <span class="text-[14px] sm:text-[18px]">一支</span> 即送 <span class="ml-1 text-[16px] text-red-400">魯夫五檔手機氣囊支架 (隨機款)</span></li>
+              <li class="text-gray-900">購買冰淇淋 <span class="text-[14px] sm:text-[18px]">二支</span> 再送 <span class="ml-1 text-[16px] text-red-400">航海王迷你鋪克牌</span></li>
             </ul>
             <ul class="mt-8 txt-thin text-[10px]">
               <li>每日各商售店限量提供贈品。恕無法挑款，每日數量送完為止</li>
