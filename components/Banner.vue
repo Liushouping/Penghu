@@ -3,7 +3,7 @@
 </script>
 <template>
     <div 
-    class="relative w-full h-[75vh] sm:h-[100vh] bg-gray-950 flex flex-col space-y-2 justify-start items-center bg-cover bg-bottom"
+    class="relative w-full h-[75vh] sm:h-[100vh] bg-gray-950 flex flex-col space-y-2 justify-start items-center bg-cover bg-bottom overflow-hidden"
     style="background-image: url(/banner.jpg);">
         <div class="flex flex-row space-x-4 justify-start items-center pt-20 md:pt-28 lg:pt-6">
             <p class="text-gray-50 text-[16px] sm:text-[32px] txt-bold flex flex-row items-center justify-center">
@@ -25,7 +25,7 @@
             </ul>
         </div>
 
-        <div class="absolute -bottom-8 sm:bottom-0">
+        <div class="absolute -bottom-2 sm:bottom-0">
             <img class="w-[960px] aspect-[3/2] object-contain" src="/25th.webp">
         </div>
 
