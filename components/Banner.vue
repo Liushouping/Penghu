@@ -25,7 +25,7 @@
             </ul>
         </div>
 
-        <div class="absolute bottom-0">
+        <div class="absolute -bottom-8 sm:bottom-0">
             <img class="w-[960px] aspect-[3/2] object-contain" src="/25th.webp">
         </div>
 

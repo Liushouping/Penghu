@@ -29,8 +29,8 @@ export default defineNuxtConfig({
     },
   },
   modules: [
-    // '@nuxtjs/tailwindcss',
-    '@nuxt/ui'
+    '@nuxtjs/tailwindcss',
+    // '@nuxt/ui'
   ],
   // site: {
   //   url: 'https://bbtaipei.com',
