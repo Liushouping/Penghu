@@ -16,7 +16,7 @@
       </div>
       <!-- Card -->
       <div  
-      class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+      class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-2">
 
         <a href="/" data-aos="fade-up" data-aos-delay="150">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
@@ -244,7 +244,7 @@
         </ul>
       </div>
       <!-- Card -->
-      <div class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 relative z-30">
+      <div class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-2 relative z-30">
 
         <a href="/" data-aos="fade-up" data-aos-delay="150">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
