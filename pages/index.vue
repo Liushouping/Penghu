@@ -456,7 +456,7 @@
       <img class="w-full" src="/ab-3.webp">
     </div>
     <!-- bottom -->
-    <div class="absolute -bottom-36 right-0 z-0">
+    <div class="absolute -bottom-12 sm:-bottom-36 right-0 z-0">
       <img class="w-full" src="/ab-2.webp">
     </div>
   </div>
