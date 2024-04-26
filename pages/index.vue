@@ -474,7 +474,7 @@ const alert = ref("true");
     <transition name="fade">
       <div 
       v-if="alert === true" 
-      class="fixed top-0 left-0 w-full h-screen bg-black/80 flex justify-center items-center px-4 z-[999]">
+      class="fixed top-0 left-0 w-full h-screen bg-gray-950/50 flex justify-center items-center px-4 z-[999]">
         <div @click="alert = false" class="absolute top-0 left-0 w-full h-screen bg-black/30 z-20"></div>
 
         <div class="relative bg-gray-50 rounded-md flex flex-col space-y-2 justify-center items-start pt-8 pb-4 pl-4 pr-4 z-50">
