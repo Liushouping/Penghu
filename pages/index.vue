@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
   <div class="relative py-24 flex flex-col space-y-20 px-4 xl:px-0">
     <!-- 澎湖推薦店家 -->
@@ -37,7 +33,7 @@
               含2島上機車，機車2人1台遇單人騎補收$135/台
             </p>
           </div>
-          <div class="h-[50px] flex justify-end items-end flex justify-end items-end">
+          <div class="h-[60px] flex justify-end items-end">
             <p class="text-red-500 text-[12px] text-right">
               全票 $950/人 未滿3歲 $100/人
             </p>
@@ -62,7 +58,7 @@
               含島上機車(機車2人1台遇單人騎補收$135/台)+活動2選1(A浮潛、B透明獨木舟)
             </p>
           </div>
-          <div class="bg-white h-[50px] flex justify-end items-end">
+          <div class="h-[60px] flex justify-end items-end">
             <p class="text-red-500 text-[12px] text-right">
               全票 $1399/人<br>
               滿3-12歲 $1199/人 未滿3歲 $100/人
@@ -89,7 +85,7 @@
               時間：早上場(09:00-12:00) 下午場(13:30-17:30)
             </p>
           </div>
-          <div class="bg-white h-[50px] flex justify-end items-end">
+          <div class="h-[60px] flex justify-end items-end">
             <p class="text-red-500 text-[12px] text-right">
               $800/人
             </p>
@@ -114,7 +110,7 @@
               原價600/人，通關密語『我是海迷』享專屬優惠。
             </p>
           </div>
-          <div class="bg-white h-[50px] flex justify-end items-end">
+          <div class="h-[60px] flex justify-end items-end">
             <p class="text-red-500 text-[12px] text-right">
               全票 $439/人<br>
               滿3-未滿12歲 $350/人 未滿3歲 $50/人
@@ -140,7 +136,7 @@
               原價1200/人，通關密語『我是海迷』享專屬優惠。
             </p>
           </div>
-          <div class="bg-white h-[50px] flex justify-end items-end">
+          <div class="h-[60px] flex justify-end items-end">
             <p class="text-red-500 text-[12px] text-right">
               全票 $1000/人<br>
               滿3-8歲 $900/人 未滿3歲 $100/人
@@ -166,7 +162,7 @@
               原價1700/人，通關密語『我是海迷』享專屬優惠。
             </p>
           </div>
-          <div class="bg-white h-[50px] flex justify-end items-end">
+          <div class="h-[60px] flex justify-end items-end">
             <p class="text-red-500 text-[12px] text-right">
               全票 $1200/人<br>
               滿3-7歲 $1000/人 未滿3歲 $100/人
@@ -193,7 +189,7 @@
               時間：早上場(09:00) 下午場(14:00)
             </p>
           </div>
-          <div class="bg-white h-[50px] flex justify-end items-end">
+          <div class="h-[60px] flex justify-end items-end">
             <p class="text-red-500 text-[12px] text-right">
               全票 &580/人 5歲以下免費
             </p>
@@ -218,7 +214,7 @@
               原價550/人，通關密語『我是海迷』享專屬優惠。
             </p>
           </div>
-          <div class="bg-white h-[50px] flex justify-end items-end">
+          <div class="h-[60px] flex justify-end items-end">
             <p class="text-red-500 text-[12px] text-right">
               全票 $500/人<br>
               100-130公分 $250/人 110以下 $100/人
@@ -264,7 +260,7 @@
               原價1950/人。通關密語『我是海迷』享專屬優惠。
             </p>
           </div>
-          <div class="bg-white h-[50px] flex justify-end items-end">
+          <div class="h-[60px] flex justify-end items-end">
             <p class="text-red-500 text-[12px] text-right">
               聯營 $1490/人 百麗 $1590/人
             </p>
@@ -290,7 +286,7 @@
               出發 (週五、六) 回程 (週日、一)
             </p>
           </div>
-          <div class="bg-white h-[50px] flex justify-end items-end">
+          <div class="h-[60px] flex justify-end items-end">
             <p class="text-red-500 text-[12px] text-right">
               聯營 $1590/人 百麗 $1690/人
             </p>
@@ -315,7 +311,7 @@
               日期：端午連假 (6/8~6/10)
             </p>
           </div>
-          <div class="bg-white h-[50px] flex justify-end items-end">
+          <div class="h-[60px] flex justify-end items-end">
             <p class="text-red-500 text-[12px] text-right">
               聯營 $1900/人 百麗 $1950/人
             </p>
@@ -339,7 +335,7 @@
               975/人 - 不分平/假/連假。兒童票限滿3歲-未滿12歲，敬老票限滿65歲才能購買。
             </p>
           </div>
-          <div class="bg-white h-[50px] flex justify-end items-end">
+          <div class="h-[60px] flex justify-end items-end">
             <p class="text-red-500 text-[12px] text-right">
               $975/人
             </p>
@@ -363,7 +359,7 @@
               195/人 - 不分平/假/連假。限未滿3歲才能購買。
             </p>
           </div>
-          <div class="bg-white h-[50px] flex justify-end items-end">
+          <div class="h-[60px] flex justify-end items-end">
             <p class="text-red-500 text-[12px] text-right">
               聯營 $1490/人 百麗 $1590/人
             </p>
@@ -388,7 +384,7 @@
               三天二夜每台 1000。 
             </p>
           </div>
-          <div class="bg-white h-[50px] flex justify-end items-end">
+          <div class="h-[60px] flex justify-end items-end">
             <p class="text-red-500 text-[12px] text-right">
               $1000/台/3天2夜
             </p>
@@ -465,7 +461,3 @@
     </div>
   </div>
 </template>
-
-<style>
-
-</style>
