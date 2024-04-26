@@ -49,15 +49,6 @@ onBeforeUnmount(() => {
 				</a>
 				<span class="text-[10px] text-black txt-thin xl:font-medium hidden sm:flex">FB</span>
 			</li>
-			<!-- <li class="flex flex-col justify-center items-center space-y-1">
-				<a 
-				href="/"
-				target="_blank"
-				class="bg-black text-gray-50 w-6 h-6 sm:w-8 sm:h-8 rounded-full text-[12px] flex justify-center items-center">
-					in
-				</a>
-				<span class="text-[10px] text-black txt-thin xl:font-medium hidden sm:flex">訂位</span>
-			</li> -->
 			<li class="flex flex-col justify-center items-center space-y-1">
 				<button
 				@click="Top">

@@ -22,6 +22,11 @@
 
 .txt-Bold {
   font-family: "Noto Sans TC", sans-serif;
+  font-weight: 700;
+}
+
+.txt-Black {
+  font-family: "Noto Sans TC", sans-serif;
   font-weight: 900;
 }
 </style>
