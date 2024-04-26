@@ -1,3 +1,12 @@
+<script setup>
+const alert = ref("true");
+  onMounted(() => {
+    document.oncontextmenu = function() {
+      alert.value = true;
+      return false;
+    };
+  });
+</script>
 <template>
   <div class="relative py-24 flex flex-col space-y-20 px-4 xl:px-0">
     <!-- 澎湖推薦店家 -->
@@ -460,4 +469,24 @@
       <img class="w-full" src="/ab-2.webp">
     </div>
   </div>
+  <!-- -->
+  <Teleport to="body">
+    <transition name="fade">
+      <div 
+      v-if="alert === true" 
+      class="fixed top-0 left-0 w-full h-screen bg-black/80 flex justify-center items-center px-4 z-[999]">
+        <div @click="alert = false" class="absolute top-0 left-0 w-full h-screen bg-black/30 z-20"></div>
+
+        <div class="relative bg-gray-50 rounded-md flex flex-col space-y-2 justify-center items-start pt-8 pb-4 pl-4 pr-4 z-50">
+            <div class="absolute right-2 top-2 cursor-pointer z-50" @click="alert = false">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                    <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
+                </svg>
+            </div>
+            <p class="text-[12px] tracking-[2px]">網站限制了圖片的複製功能。</p>
+            <p class="text-[12px] tracking-[2px]">The website restricts the copying function of images.</p>
+        </div>
+      </div>
+    </transition>
+  </Teleport>
 </template>
