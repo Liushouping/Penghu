@@ -35,7 +35,7 @@
         <div class="absolute -left-2 sm:left-4 bottom-4 z-10">
             <img class="w-[75px] sm:w-[120px] lg:w-[180px] aspect-[3/2] object-contain" src="/toei.png">
         </div>
-        <div class="absolute right-2 sm:right-4 bottom-4 z-10">
+        <div class="absolute right-2 sm:right-16 bottom-4 z-10">
             <img class="w-[75px] sm:w-[90px] lg:w-[180px] aspect-[3/2] object-contain" src="/onepiece.png">
         </div>
     </div>
