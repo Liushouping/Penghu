@@ -30,7 +30,7 @@ const alert = ref("true");
       </div>
       <!-- Card -->
       <div  
-      class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-2">
+      class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
 
         <a href="/" data-aos="fade-up" data-aos-delay="150">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
@@ -136,7 +136,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="750">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-5.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -162,7 +162,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="900">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-6.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -188,7 +188,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="1050">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-7.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -214,7 +214,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="1200">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-8.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -258,7 +258,7 @@ const alert = ref("true");
         </ul>
       </div>
       <!-- Card -->
-      <div class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-2 relative z-30">
+      <div class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 relative z-30">
 
         <a href="/" data-aos="fade-up" data-aos-delay="150">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
@@ -360,7 +360,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="750">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-13.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -384,7 +384,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="900">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-14.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
