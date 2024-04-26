@@ -480,7 +480,7 @@ const alert = ref("true");
       <div 
       v-if="alert === true" 
       class="fixed top-0 left-0 w-full h-screen bg-gray-950/50 flex justify-center items-center px-4 z-[999]">
-        <div @click="alert = false" class="absolute top-0 left-0 w-full h-screen bg-black/30 z-20"></div>
+        <div @click="alert = false" class="absolute top-0 left-0 w-full h-screen bg-black/30 backdrop-blur-lg z-20"></div>
 
         <div class="relative bg-gray-50 rounded-md flex flex-col space-y-2 justify-center items-start drop-shadow-xl p-8 z-50">
             <div class="absolute right-2 top-2 cursor-pointer hover:text-red-500 z-50" @click="alert = false">
