@@ -5,6 +5,11 @@ const alert = ref("true");
       alert.value = true;
       return false;
     };
+    window.addEventListener("keydown", function(event) {
+      if (event.key === "F12") {
+        alert.value = true;
+      }
+    });
   });
 </script>
 <template>
@@ -477,8 +482,8 @@ const alert = ref("true");
       class="fixed top-0 left-0 w-full h-screen bg-gray-950/50 flex justify-center items-center px-4 z-[999]">
         <div @click="alert = false" class="absolute top-0 left-0 w-full h-screen bg-black/30 z-20"></div>
 
-        <div class="relative bg-gray-50 rounded-md flex flex-col space-y-2 justify-center items-start drop-shadow-xl pt-8 pb-4 pl-4 pr-4 z-50">
-            <div class="absolute right-2 top-2 cursor-pointer z-50" @click="alert = false">
+        <div class="relative bg-gray-50 rounded-md flex flex-col space-y-2 justify-center items-start drop-shadow-xl p-8 z-50">
+            <div class="absolute right-2 top-2 cursor-pointer hover:text-red-500 z-50" @click="alert = false">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6">
                     <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
                 </svg>
@@ -487,9 +492,9 @@ const alert = ref("true");
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-5 h-5">
                 <path fill-rule="evenodd" d="M6.701 2.25c.577-1 2.02-1 2.598 0l5.196 9a1.5 1.5 0 0 1-1.299 2.25H2.804a1.5 1.5 0 0 1-1.3-2.25l5.197-9ZM8 4a.75.75 0 0 1 .75.75v3a.75.75 0 1 1-1.5 0v-3A.75.75 0 0 1 8 4Zm0 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" clip-rule="evenodd" />
               </svg>
-              <p class="txt-Bold text-[12px] tracking-[2px]">網站限制了圖片的<u class="underline-offset-1 text-red-500">複製</u>功能。</p>
+              <p class="txt-Bold text-[12px] tracking-[2px]">禁止網站<u class="underline-offset-1 text-red-500">圖片轉載</u>使用。</p>
             </span>
-            <p class="text-[12px] tracking-[2px]">The website restricts the copying function of images.</p>
+            <p class="text-[12px] tracking-[2px]">Reproduction and use of website images is prohibited.</p>
         </div>
       </div>
     </transition>
