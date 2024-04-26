@@ -7,7 +7,7 @@
     style="background-image: url(/banner.jpg);">
         <div class="flex flex-row space-x-4 justify-start items-center pt-20 md:pt-28 lg:pt-6">
             <p class="text-gray-50 text-[16px] sm:text-[32px] txt-bold flex flex-row items-center justify-center">
-                <span class="ba pr-2">2024</span>
+                <span class="txt-shadow pr-2">2024</span>
                 5/2
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
                 <path d="M6.3 2.84A1.5 1.5 0 0 0 4 4.11v11.78a1.5 1.5 0 0 0 2.3 1.27l9.344-5.891a1.5 1.5 0 0 0 0-2.538L6.3 2.841Z" />
@@ -30,22 +30,21 @@
         </div>
 
         <div class="absolute -right-4 sm:right-0 top-4 z-10">
-            <img class="w-[75px] sm:w-[120px] lg:w-[180px] aspect-[3/2] object-contain" src="/penghu.png">
+            <img class="w-[75px] sm:w-[90px] lg:w-[180px] aspect-[3/2] object-contain" src="/penghu.png">
         </div>
         <div class="absolute -left-2 sm:left-4 bottom-4 z-10">
             <img class="w-[75px] sm:w-[120px] lg:w-[180px] aspect-[3/2] object-contain" src="/toei.png">
         </div>
         <div class="absolute right-2 sm:right-4 bottom-4 z-10">
-            <img class="w-[75px] sm:w-[120px] lg:w-[180px] aspect-[3/2] object-contain" src="/onepiece.png">
+            <img class="w-[75px] sm:w-[90px] lg:w-[180px] aspect-[3/2] object-contain" src="/onepiece.png">
         </div>
     </div>
 </template>
 
 <style>
-.ba {
+.txt-shadow {
     filter: brightness(110%);
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffcc00,
         0 0 35px #ffcc00, 0 0 40px #ffcc00, 0 0 50px #ffcc00, 0 0 75px #ffcc00;
-    animation: pink 1.5s ease-in-out infinite alternate;
 }
 </style>
