@@ -30,6 +30,7 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/tailwindcss',
+    'nuxt-aos'
     // '@nuxt/ui'
   ],
   // site: {

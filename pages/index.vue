@@ -22,7 +22,7 @@
       <div  
       class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
 
-        <a href="/">
+        <a href="/" data-aos="fade-up" data-aos-delay="150">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
           
           <div class="w-full h-[200px] relative overflow-hidden">
@@ -47,7 +47,7 @@
         </div>
         </a>
 
-        <a href="/">
+        <a href="/" data-aos="fade-up" data-aos-delay="300">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
 
           <div class="w-full h-[200px] relative overflow-hidden">
@@ -73,7 +73,7 @@
         </div>
         </a>
 
-        <a href="/">
+        <a href="/" data-aos="fade-up" data-aos-delay="450">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
 
           <div class="w-full h-[200px] relative overflow-hidden">
@@ -99,7 +99,7 @@
         </div>
         </a>
 
-        <a href="/">
+        <a href="/" data-aos="fade-up" data-aos-delay="600">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
 
           <div class="w-full h-[200px] relative overflow-hidden">
@@ -125,7 +125,7 @@
         </div>
         </a>
 
-        <a href="/">
+        <a href="/" data-aos="fade-up" data-aos-delay="750">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
 
           <div class="w-full h-[200px] relative overflow-hidden">
@@ -151,7 +151,7 @@
         </div>
         </a>
 
-        <a href="/">
+        <a href="/" data-aos="fade-up" data-aos-delay="900">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
 
           <div class="w-full h-[200px] relative overflow-hidden">
@@ -177,7 +177,7 @@
         </div>
         </a>
 
-        <a href="/">
+        <a href="/" data-aos="fade-up" data-aos-delay="1050">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
 
           <div class="w-full h-[200px] relative overflow-hidden">
@@ -203,7 +203,7 @@
         </div>
         </a>
 
-        <a href="/">
+        <a href="/" data-aos="fade-up" data-aos-delay="1200">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
 
           <div class="w-full h-[200px] relative overflow-hidden">
@@ -250,7 +250,7 @@
       <!-- Card -->
       <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 relative z-30">
 
-        <a href="/">
+        <a href="/" data-aos="fade-up" data-aos-delay="150">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
 
           <div class="w-full h-[200px] relative overflow-hidden overflow-hidden">
@@ -274,7 +274,7 @@
         </div>
         </a>
 
-        <a href="/">
+        <a href="/" data-aos="fade-up" data-aos-delay="300">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
 
           <div class="w-full h-[200px] relative overflow-hidden">
@@ -300,7 +300,7 @@
         </div>
         </a>
 
-        <a href="/">
+        <a href="/" data-aos="fade-up" data-aos-delay="450">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
 
           <div class="w-full h-[200px] relative overflow-hidden">
@@ -325,7 +325,7 @@
         </div>
         </a>
 
-        <a href="/">
+        <a href="/" data-aos="fade-up" data-aos-delay="600">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
 
           <div class="w-full h-[200px] relative overflow-hidden">
@@ -349,7 +349,7 @@
         </div>
         </a>
 
-        <a href="/">
+        <a href="/" data-aos="fade-up" data-aos-delay="750">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
 
           <div class="w-full h-[200px] relative overflow-hidden">
@@ -373,7 +373,7 @@
         </div>
         </a>
 
-        <a href="/">
+        <a href="/" data-aos="fade-up" data-aos-delay="900">
         <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
 
           <div class="w-full h-[200px] relative overflow-hidden">
@@ -418,7 +418,9 @@
         </ul>
       </div>
       <!-- Card -->
-      <div class="mt-4 grid grid-cols-1">
+      <div 
+      data-aos="fade-up" data-aos-delay="150"
+      class="mt-4 grid grid-cols-1">
         <div class="bg-gray-50 w-full h-full min-h-[600px] sm:min-h-[360px] flex flex-col sm:flex-row">
           <div class="w-full sm:w-1/3 flex justify-center items-center pt-6">
             <img class="w-[360px] aspect-[3/2] object-contain" src="/info-4.png">
