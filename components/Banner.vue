@@ -26,7 +26,7 @@
         </div>
 
         <div class="absolute -bottom-6 sm:-bottom-4">
-            <img class="w-[960px] aspect-[3/2] object-contain" src="/25th.webp">
+            <img class="w-[960px] sm:w-[720px] xl:w-[960ox] aspect-[3/2] object-contain" src="/25th.webp">
         </div>
 
         <div class="absolute -right-4 sm:right-0 top-4 z-10">
