@@ -33,7 +33,7 @@ const alert = ref("true");
       class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
 
         <a href="/" data-aos="fade-up" data-aos-delay="150">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
           
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-1.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -58,7 +58,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="300">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-2.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -84,7 +84,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="450">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-3.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -110,7 +110,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="600">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-4.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -136,7 +136,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="750">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px] mt-0 sm:mt-8">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-5.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -162,7 +162,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="900">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px] mt-0 sm:mt-8">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-6.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -188,7 +188,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="1050">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px] mt-0 sm:mt-8">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-7.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -214,7 +214,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="1200">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px] mt-0 sm:mt-8">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-8.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -261,7 +261,7 @@ const alert = ref("true");
       <div class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 relative z-30">
 
         <a href="/" data-aos="fade-up" data-aos-delay="150">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden overflow-hidden">
             <img src="/p-9.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -285,7 +285,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="300">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-10.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -311,7 +311,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="450">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-11.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -336,7 +336,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="600">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px]">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-12.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -360,7 +360,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="750">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px] mt-0 sm:mt-8">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-13.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -384,7 +384,7 @@ const alert = ref("true");
         </a>
 
         <a href="/" data-aos="fade-up" data-aos-delay="900">
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px] mt-0 sm:mt-8">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-14.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
@@ -431,7 +431,7 @@ const alert = ref("true");
       <div 
       data-aos="fade-up" data-aos-delay="150"
       class="mt-4 grid grid-cols-1">
-        <div class="bg-gray-50 w-full h-full min-h-[600px] sm:min-h-[360px] flex flex-col sm:flex-row">
+        <div class="bg-gray-50 w-full h-full min-h-[600px] sm:min-h-[360px] flex flex-col sm:flex-row transition-transform hover:-translate-y-2">
           <div class="w-full sm:w-1/3 flex justify-center items-center pt-6">
             <img class="w-[360px] aspect-[3/2] object-contain" src="/info-4.png">
           </div>
