@@ -494,6 +494,7 @@ const alert = ref("true");
               </svg>
               <p class="txt-Bold text-[12px] tracking-[2px]">禁止網站<u class="underline-offset-1 text-red-500">圖片轉載</u>使用。</p>
             </span>
+            <hr class="w-full h-[1px] bg-black">
             <p class="text-[12px] tracking-[2px]">Reproduction and use of website images is prohibited.</p>
         </div>
       </div>
@@ -503,7 +504,7 @@ const alert = ref("true");
 <style scoped>
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.25s ease;
+  transition: opacity 0.5s ease;
 }
 
 .fade-enter-from,
