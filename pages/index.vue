@@ -476,10 +476,11 @@ const alert = ref("true");
   </div>
   <!-- -->
   <Teleport to="body">
-    <transition name="fade">
+    <transition name="slide-fade">
       <div 
       v-if="alert === true" 
-      class="fixed top-0 left-0 w-full h-screen bg-gray-950/50 flex justify-center items-center px-4 z-[999]">
+      class="fixed top-0 left-0 w-full h-screen flex justify-center items-center px-4 z-[999]">
+
         <div @click="alert = false" class="absolute top-0 left-0 w-full h-screen bg-black/30 backdrop-blur-lg z-20"></div>
 
         <div class="relative bg-gray-50 rounded-md flex flex-col space-y-2 justify-center items-start drop-shadow-xl p-8 z-50">
@@ -502,13 +503,17 @@ const alert = ref("true");
   </Teleport>
 </template>
 <style scoped>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s ease;
+.slide-fade-enter-active {
+  transition: all 0.3s ease-out;
 }
 
-.fade-enter-from,
-.fade-leave-to {
+.slide-fade-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateY(25px);
   opacity: 0;
 }
 </style>
