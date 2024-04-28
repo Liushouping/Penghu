@@ -451,10 +451,10 @@ const alert = ref("true");
             </div>
 
             <div class="absolute right-0 sm:right-4 -bottom-0 sm:top-4">
-              <img class="w-[160px] aspect-[3/2] object-contain" src="/info-5.png">
+              <img class="w-[160px] lg:w-[240px] aspect-[3/2] object-contain" src="/info-5.png">
             </div>
             <div class="absolute left-0 sm:left-96 bottom-0">
-              <img class="w-[180px] sm:w-[320px] aspect-[3/2] object-contain" src="/info-6.png">
+              <img class="w-[180px] sm:w-[360px] aspect-[3/2] object-contain" src="/info-6.png">
             </div>
 
           </div>
