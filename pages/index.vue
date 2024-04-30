@@ -36,7 +36,7 @@ const alert = ref("true");
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
           
           <div class="w-full h-[160px] relative overflow-hidden">
-            <img src="/p-1.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
+            <img src="/p-1.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -61,7 +61,7 @@ const alert = ref("true");
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
-            <img src="/p-2.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
+            <img src="/p-2.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -87,7 +87,7 @@ const alert = ref("true");
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
-            <img src="/p-3.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
+            <img src="/p-3.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -113,7 +113,7 @@ const alert = ref("true");
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
-            <img src="/p-4.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
+            <img src="/p-4.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -139,7 +139,7 @@ const alert = ref("true");
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
-            <img src="/p-5.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
+            <img src="/p-5.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -165,7 +165,7 @@ const alert = ref("true");
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
-            <img src="/p-6.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
+            <img src="/p-6.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -191,7 +191,7 @@ const alert = ref("true");
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
-            <img src="/p-7.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
+            <img src="/p-7.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -217,7 +217,7 @@ const alert = ref("true");
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
-            <img src="/p-8.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
+            <img src="/p-8.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -264,7 +264,7 @@ const alert = ref("true");
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden overflow-hidden">
-            <img src="/p-9.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
+            <img src="/p-9.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -288,7 +288,7 @@ const alert = ref("true");
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
-            <img src="/p-10.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
+            <img src="/p-10.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -314,7 +314,7 @@ const alert = ref("true");
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
-            <img src="/p-11.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
+            <img src="/p-11.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -339,7 +339,7 @@ const alert = ref("true");
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
-            <img src="/p-12.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
+            <img src="/p-12.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -363,7 +363,7 @@ const alert = ref("true");
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
-            <img src="/p-13.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
+            <img src="/p-13.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -387,7 +387,7 @@ const alert = ref("true");
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
-            <img src="/p-14.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-150">
+            <img src="/p-14.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
           </div>
 
           <div class="p-2 bg-white h-[175px]">
