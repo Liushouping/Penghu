@@ -17,17 +17,9 @@ onBeforeUnmount(() => {
 <template>
 	<div 
 	:class="{ 'opacity-100 right-0': GoTop }"
-	class="fixed bottom-[20%] -right-20 w-[40px] sm:w-[50px] h-[200px] sm:h-[300px] transition-all duration-500 cursor-pointer opacity-0 z-30 bg-gray-50 flex justify-center items-center rounded-tl-2xl rounded-bl-2xl drop-shadow-2xl"
+	class="fixed bottom-[20%] -right-20 w-[40px] sm:w-[50px] h-[150px] sm:h-[240px] transition-all duration-500 cursor-pointer opacity-0 z-30 bg-gray-50 flex justify-center items-center rounded-tl-2xl rounded-bl-2xl drop-shadow-2xl"
 	>
 		<ul class="flex flex-col justify-center items-center space-y-6">
-			<li class="flex flex-col justify-center items-center space-y-1">
-				<NuxtLink to="https://www.flipsnack.com/jwshakka/25-1u84p3pd1j/full-view.html" target="_blank" external>
-					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 sm:w-8 sm:h-8 fill-black">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-					</svg>
-				</NuxtLink>
-				<span class="text-[10px] text-black txt-thin xl:font-medium hidden sm:flex">Book</span>
-			</li>
 			<li class="flex flex-col justify-center items-center space-y-1">
 				<NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" external>
 					<svg 
