@@ -32,7 +32,7 @@ const alert = ref("true");
       <div  
       class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
 
-        <a href="/" data-aos="fade-up" data-aos-delay="150">
+        <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="150" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
           
           <div class="w-full h-[160px] relative overflow-hidden">
@@ -55,9 +55,9 @@ const alert = ref("true");
           </div>
 
         </div>
-        </a>
+        </NuxtLink>
 
-        <a href="/" data-aos="fade-up" data-aos-delay="300">
+        <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="300" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
@@ -81,9 +81,9 @@ const alert = ref("true");
           </div>
 
         </div>
-        </a>
+        </NuxtLink>
 
-        <a href="/" data-aos="fade-up" data-aos-delay="450">
+        <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="450" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
@@ -107,9 +107,9 @@ const alert = ref("true");
           </div>
 
         </div>
-        </a>
+        </NuxtLink>
 
-        <a href="/" data-aos="fade-up" data-aos-delay="600">
+        <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="600" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
@@ -133,9 +133,9 @@ const alert = ref("true");
           </div>
 
         </div>
-        </a>
+        </NuxtLink>
 
-        <a href="/" data-aos="fade-up" data-aos-delay="750">
+        <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="750" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
@@ -159,9 +159,9 @@ const alert = ref("true");
           </div>
 
         </div>
-        </a>
+        </NuxtLink>
 
-        <a href="/" data-aos="fade-up" data-aos-delay="900">
+        <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="900" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
@@ -185,9 +185,9 @@ const alert = ref("true");
           </div>
 
         </div>
-        </a>
+        </NuxtLink>
 
-        <a href="/" data-aos="fade-up" data-aos-delay="1050">
+        <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="1050" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
@@ -211,9 +211,9 @@ const alert = ref("true");
           </div>
 
         </div>
-        </a>
+        </NuxtLink>
 
-        <a href="/" data-aos="fade-up" data-aos-delay="1200">
+        <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="1200" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
@@ -237,7 +237,7 @@ const alert = ref("true");
           </div>
 
         </div>
-        </a>
+        </NuxtLink>
 
       </div>
     </div>
@@ -260,7 +260,7 @@ const alert = ref("true");
       <!-- Card -->
       <div class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 relative z-30">
 
-        <a href="/" data-aos="fade-up" data-aos-delay="150">
+        <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="150" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden overflow-hidden">
@@ -282,9 +282,9 @@ const alert = ref("true");
           </div>
 
         </div>
-        </a>
+        </NuxtLink>
 
-        <a href="/" data-aos="fade-up" data-aos-delay="300">
+        <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="300" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
@@ -308,9 +308,9 @@ const alert = ref("true");
           </div>
 
         </div>
-        </a>
+        </NuxtLink>
 
-        <a href="/" data-aos="fade-up" data-aos-delay="450">
+        <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="450" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
@@ -333,9 +333,9 @@ const alert = ref("true");
           </div>
 
         </div>
-        </a>
+        </NuxtLink>
 
-        <a href="/" data-aos="fade-up" data-aos-delay="600">
+        <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="600" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden">
@@ -357,9 +357,9 @@ const alert = ref("true");
           </div>
           
         </div>
-        </a>
+        </NuxtLink>
 
-        <a href="/" data-aos="fade-up" data-aos-delay="750">
+        <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="750" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
@@ -381,9 +381,9 @@ const alert = ref("true");
           </div>
 
         </div>
-        </a>
+        </NuxtLink>
 
-        <a href="/" data-aos="fade-up" data-aos-delay="900">
+        <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="900" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden">
@@ -406,7 +406,7 @@ const alert = ref("true");
           </div>
 
         </div>
-        </a>
+        </NuxtLink>
 
       </div>
     </div>

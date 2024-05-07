@@ -43,6 +43,6 @@
 .txt-shadow {
     filter: brightness(110%);
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffcc00,
-        0 0 35px #ffcc00, 0 0 40px #ffcc00, 0 0 50px #ffcc00, 0 0 75px #ffcc00;
+                 0 0 35px #ffcc00, 0 0 40px #ffcc00, 0 0 50px #ffcc00, 0 0 75px #ffcc00;
 }
 </style>
