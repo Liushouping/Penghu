@@ -110,7 +110,7 @@ const alert = ref("true");
         </NuxtLink>
 
         <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="600" external>
-        <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
+        <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-8 lg:mt-0">
 
           <div class="w-full h-[160px] relative overflow-hidden">
             <img src="/p-4.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
