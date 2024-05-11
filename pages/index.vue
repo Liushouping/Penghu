@@ -5,7 +5,7 @@ const skeleton = ref(true);
     //
     setTimeout(() => {
       skeleton.value = false;
-    }, 800);
+    }, 8000);
     //
     document.oncontextmenu = function() {
       alert.value = true;
@@ -40,53 +40,53 @@ const skeleton = ref(true);
       class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
       
       <!-- Skeletion -->
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
 
       </div>
@@ -326,53 +326,53 @@ const skeleton = ref(true);
       class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
       
       <!-- Skeletion -->
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
 
       </div>
@@ -554,11 +554,11 @@ const skeleton = ref(true);
       class="mt-4 grid grid-cols-1">
       
       <!-- Skeletion -->
-      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
       </div>
 
       </div>
