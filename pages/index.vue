@@ -1,6 +1,12 @@
 <script setup>
-const alert = ref("true");
+const alert = ref(false);
+const skeleton = ref(true);
   onMounted(() => {
+    //
+    setTimeout(() => {
+      skeleton.value = false;
+    }, 800);
+    //
     document.oncontextmenu = function() {
       alert.value = true;
       return false;
@@ -28,8 +34,65 @@ const alert = ref("true");
           <li class="text-gray-50 text-[18px] txt-Black text-right" style="text-shadow: 0.1em 0.1em 0.2em #3C3C3C">-精選活動系列-</li>
         </ul>
       </div>
+      <!-- skeletion Card -->
+      <div 
+      v-if="skeleton" 
+      class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+      
+      <!-- Skeletion -->
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+
+      </div>
       <!-- Card -->
-      <div  
+      <div 
+      v-else
       class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
 
         <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="10" external>
@@ -257,8 +320,66 @@ const alert = ref("true");
           <li class="text-gray-50 text-[18px] txt-Black text-right" style="text-shadow: 0.1em 0.1em 0.2em #3C3C3C">-精選交通系列-</li>
         </ul>
       </div>
+      <!-- skeletion Card -->
+      <div 
+      v-if="skeleton" 
+      class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+      
+      <!-- Skeletion -->
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+
+      </div>
       <!-- Card -->
-      <div class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 relative z-30">
+      <div 
+      v-else
+      class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 relative z-30">
 
         <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="100" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
@@ -427,8 +548,23 @@ const alert = ref("true");
           <li class="text-gray-50 text-[18px] txt-Black text-right" style="text-shadow: 0.1em 0.1em 0.2em #3C3C3C">-精選美食系列-</li>
         </ul>
       </div>
+      <!-- skeletion Card -->
+      <div 
+      v-if="skeleton" 
+      class="mt-4 grid grid-cols-1">
+      
+      <!-- Skeletion -->
+      <div class="bg-white rounded-lg shadow-md p-4 animate-pulse">
+        <div class="w-full h-40 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-full h-4 bg-gray-300 rounded mb-2"></div>
+        <div class="w-1/2 h-8 bg-gray-300 rounded"></div>
+      </div>
+
+      </div>
       <!-- Card -->
       <div 
+      v-else
       data-aos="fade-up" data-aos-delay="150"
       class="mt-4 grid grid-cols-1">
         <div class="bg-gray-50 w-full h-full min-h-[600px] sm:min-h-[360px] flex flex-col sm:flex-row transition-transform hover:-translate-y-2">
