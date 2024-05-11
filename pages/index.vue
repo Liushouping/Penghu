@@ -5,7 +5,7 @@ const skeleton = ref(true);
     //
     setTimeout(() => {
       skeleton.value = false;
-    }, 8000);
+    }, 800);
     //
     document.oncontextmenu = function() {
       alert.value = true;
