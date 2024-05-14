@@ -51,7 +51,7 @@ export default defineNuxtConfig({
     },
   },
   plugins: [
-    
+
   ],
   aos: {
     // Global settings:
