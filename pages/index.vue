@@ -430,7 +430,7 @@ const alert = ref(false);
       <div class="relative p-6 bg-[#DBC24F] w-full flex flex-row justify-between">
         <!---->
         <div class="h-[160px] flex justify-center items-center">
-          <NuxtImg format="webp" class="w-[120px] sm:w-[240px] aspect-[1/1] sm:aspect-[3/2] object-contain" src="/info-3.png" />
+          <NuxtImg format="webp" class="w-[120px] sm:w-[240px] aspect-[1/1] sm:aspect-[3/2] object-contain" src="/info-3.png" alt="Penghu Food" />
         </div>
         <!---->
         <ul class="flex flex-col justify-center items-end tracking-[2px]">
@@ -445,7 +445,7 @@ const alert = ref(false);
       class="mt-4 grid grid-cols-1">
         <div class="bg-gray-50 w-full h-full min-h-[600px] sm:min-h-[360px] flex flex-col sm:flex-row transition-transform hover:-translate-y-2">
           <div class="w-full sm:w-1/3 flex justify-center items-center pt-6">
-            <NuxtImg format="webp" loading="lazy" class="w-[360px] aspect-[3/2] object-contain" src="/info-4.png" />
+            <NuxtImg format="webp" loading="lazy" class="w-[360px] aspect-[3/2] object-contain" src="/info-4.png" alt="store" />
           </div>
           <div class="relative w-full sm:w-2/3 h-full relative p-4 flex flex-col justify-center items-start">
             <div class="mb-24">
@@ -463,10 +463,10 @@ const alert = ref(false);
             </div>
 
             <div class="absolute right-0 sm:right-4 -bottom-0 sm:top-4">
-              <NuxtImg format="webp" loading="lazy" class="w-[160px] lg:w-[240px] aspect-[3/2] object-contain" src="/info-5.png" />
+              <NuxtImg format="webp" loading="lazy" class="w-[160px] lg:w-[240px] aspect-[3/2] object-contain" src="/info-5.png" alt="store" />
             </div>
             <div class="absolute left-0 sm:left-96 bottom-0">
-              <NuxtImg format="webp" loading="lazy" class="w-[180px] sm:w-[360px] aspect-[3/2] object-contain" src="/info-6.png" />
+              <NuxtImg format="webp" loading="lazy" class="w-[180px] sm:w-[360px] aspect-[3/2] object-contain" src="/info-6.png" alt="store" />
             </div>
 
           </div>
@@ -475,15 +475,15 @@ const alert = ref(false);
     </div>
     <!-- left -->
     <div class="absolute bottom-[960px] -left-24 z-0">
-      <NuxtImg format="webp" class="w-full" src="/ab-4.webp" />
+      <NuxtImg format="webp" class="w-full" src="/ab-4.webp" alt="onepiece" />
     </div>
     <!-- right -->
     <div class="absolute bottom-[1320px] -right-60 z-0">
-      <NuxtImg format="webp" class="w-full" src="/ab-3.webp" />
+      <NuxtImg format="webp" class="w-full" src="/ab-3.webp" alt="onepiece" />
     </div>
     <!-- bottom -->
     <div class="absolute -bottom-12 sm:-bottom-36 right-0 z-0">
-      <NuxtImg format="webp" class="w-full" src="/ab-2.webp" />
+      <NuxtImg format="webp" class="w-full" src="/ab-2.webp" alt="onepiece" />
     </div>
   </div>
   <!-- -->

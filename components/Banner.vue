@@ -1,7 +1,7 @@
 <template>
     <div 
     class="relative w-full h-[75vh] sm:h-[100vh] bg-gray-950 flex flex-col space-y-2 justify-start items-center bg-cover bg-bottom overflow-hidden"
-    style="background-image: url(/banner.jpg);">
+    style="background-image: url(/banner.webp);">
         <div class="flex flex-row space-x-4 justify-start items-center pt-20 md:pt-28 lg:pt-6">
             <p class="text-gray-50 text-[16px] sm:text-[32px] txt-Black flex flex-row items-center justify-center">
                 <span class="txt-shadow pr-2">2024</span>
