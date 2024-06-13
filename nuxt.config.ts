@@ -30,6 +30,7 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/tailwindcss',
+    '@nuxt/image',
     'nuxt-aos'
   ],
   // site: {
@@ -51,7 +52,7 @@ export default defineNuxtConfig({
     },
   },
   plugins: [
-
+    // { src: '~/plugins/intersection-observer.client.js', mode: 'client' }
   ],
   aos: {
     // Global settings:

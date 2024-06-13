@@ -1,11 +1,11 @@
 <script setup>
 const alert = ref(false);
-const skeleton = ref(true);
+// const skeleton = ref(true);
   onMounted(() => {
     //
-    setTimeout(() => {
-      skeleton.value = false;
-    }, 800);
+    // setTimeout(() => {
+    //   skeleton.value = false;
+    // }, 800);
     //
     document.oncontextmenu = function() {
       alert.value = true;
@@ -26,7 +26,7 @@ const skeleton = ref(true);
       <div class="relative p-6 bg-[#DBC24F] w-full flex flex-row justify-between">
         <!---->
         <div class="h-[160px] flex justify-center items-center">
-          <img class="w-[120px] sm:w-[240px] aspect-[1/1] sm:aspect-[3/2] object-contain" src="/info-1.png" alt="Penghu Store">
+          <NuxtImg format="webp" class="w-[120px] sm:w-[240px] aspect-[1/1] sm:aspect-[3/2] object-contain" src="/info-1.png" alt="Penghu Store" />
         </div>
         <!---->
         <ul class="flex flex-col justify-center items-end tracking-[2px]">
@@ -34,72 +34,16 @@ const skeleton = ref(true);
           <li class="text-gray-50 text-[18px] txt-Black text-right" style="text-shadow: 0.1em 0.1em 0.2em #3C3C3C">-精選活動系列-</li>
         </ul>
       </div>
-      <!-- skeletion Card -->
-      <div 
-      v-if="skeleton" 
-      class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-      
-      <!-- Skeletion -->
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
 
-      </div>
       <!-- Card -->
       <div 
-      v-else
       class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
 
         <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="10" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
           
           <div class="w-full h-[160px] relative overflow-hidden bg-gray-300">
-            <img loading="lazy" src="/p-1.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
+            <NuxtImg format="webp" :placeholder="[50, 25, 75, 5]" loading="lazy" src="/p-1.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110" />
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -124,7 +68,7 @@ const skeleton = ref(true);
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden bg-gray-300">
-            <img loading="lazy" src="/p-2.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
+            <NuxtImg format="webp" :placeholder="[50, 25, 75, 5]" loading="lazy" src="/p-2.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110" />
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -150,7 +94,7 @@ const skeleton = ref(true);
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden bg-gray-300">
-            <img loading="lazy" src="/p-3.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
+            <NuxtImg format="webp" :placeholder="[50, 25, 75, 5]" loading="lazy" src="/p-3.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110" />
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -176,7 +120,7 @@ const skeleton = ref(true);
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8 lg:mt-0">
 
           <div class="w-full h-[160px] relative overflow-hidden bg-gray-300">
-            <img loading="lazy" src="/p-4.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
+            <NuxtImg format="webp" :placeholder="[50, 25, 75, 5]" loading="lazy" src="/p-4.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110" />
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -202,7 +146,7 @@ const skeleton = ref(true);
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden bg-gray-300">
-            <img loading="lazy" src="/p-5.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
+            <NuxtImg format="webp" :placeholder="[50, 25, 75, 5]" loading="lazy" src="/p-5.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110" />
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -228,7 +172,7 @@ const skeleton = ref(true);
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden bg-gray-300">
-            <img loading="lazy" src="/p-6.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
+            <NuxtImg format="webp" :placeholder="[50, 25, 75, 5]" loading="lazy" src="/p-6.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110" />
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -254,7 +198,7 @@ const skeleton = ref(true);
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden bg-gray-300">
-            <img loading="lazy" src="/p-7.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
+            <NuxtImg format="webp" :placeholder="[50, 25, 75, 5]" loading="lazy" src="/p-7.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110" />
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -280,7 +224,7 @@ const skeleton = ref(true);
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden bg-gray-300">
-            <img loading="lazy" src="/p-8.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
+            <NuxtImg format="webp" :placeholder="[50, 25, 75, 5]" loading="lazy" src="/p-8.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110" />
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -312,7 +256,7 @@ const skeleton = ref(true);
         <!---->
         <div class="h-[160px]">
           <div class="absolute sm:-top-12 mt-4 sm:mt-0">
-            <img class="w-[120px] sm:w-[360px] aspect-[1/1] sm:aspect-[3/2] object-contain" src="/info-2.png" alt="Penghu itinerary">
+            <NuxtImg format="webp" class="w-[120px] sm:w-[360px] aspect-[1/1] sm:aspect-[3/2] object-contain" src="/info-2.png" alt="Penghu itinerary" />
           </div>
         </div>
         <!---->
@@ -321,72 +265,16 @@ const skeleton = ref(true);
           <li class="text-gray-50 text-[18px] txt-Black text-right" style="text-shadow: 0.1em 0.1em 0.2em #3C3C3C">-精選交通系列-</li>
         </ul>
       </div>
-      <!-- skeletion Card -->
-      <div 
-      v-if="skeleton" 
-      class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-      
-      <!-- Skeletion -->
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
 
-      </div>
       <!-- Card -->
       <div 
-      v-else
       class="mt-4 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 relative z-30">
 
         <NuxtLink to="https://line.me/R/ti/p/@yew4806b?oat_content=url" target="_blank" data-aos="fade-up" data-aos-delay="100" external>
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden overflow-hidden">
-            <img loading="lazy" src="/p-9.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
+            <NuxtImg format="webp" :placeholder="[50, 25, 75, 5]" loading="lazy" src="/p-9.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110" />
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -410,7 +298,7 @@ const skeleton = ref(true);
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden bg-gray-300">
-            <img loading="lazy" src="/p-10.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
+            <NuxtImg format="webp" :placeholder="[50, 25, 75, 5]" loading="lazy" src="/p-10.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110" />
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -436,7 +324,7 @@ const skeleton = ref(true);
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2">
 
           <div class="w-full h-[160px] relative overflow-hidden bg-gray-300">
-            <img loading="lazy" src="/p-11.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
+            <NuxtImg format="webp" :placeholder="[50, 25, 75, 5]" loading="lazy" src="/p-11.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110" />
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -461,7 +349,7 @@ const skeleton = ref(true);
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8 lg:mt-0">
 
           <div class="w-full h-[160px] relative overflow-hidden bg-gray-300">
-            <img loading="lazy" src="/p-12.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
+            <NuxtImg format="webp" :placeholder="[50, 25, 75, 5]" loading="lazy" src="/p-12.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110" />
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -485,7 +373,7 @@ const skeleton = ref(true);
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden bg-gray-300">
-            <img loading="lazy" src="/p-13.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
+            <NuxtImg format="webp" :placeholder="[50, 25, 75, 5]" loading="lazy" src="/p-13.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110" />
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -509,7 +397,7 @@ const skeleton = ref(true);
         <div class="w-full overflow-hidden shadow-lg tracking-[0px] transition-transform hover:-translate-y-2 mt-0 sm:mt-8">
 
           <div class="w-full h-[160px] relative overflow-hidden bg-gray-300">
-            <img loading="lazy" src="/p-14.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110">
+            <NuxtImg format="webp" :placeholder="[50, 25, 75, 5]" loading="lazy" src="/p-14.png" alt="Store" class="w-full h-full object-cover duration-500 ease hover:scale-110" />
           </div>
 
           <div class="p-2 bg-white h-[175px]">
@@ -532,16 +420,17 @@ const skeleton = ref(true);
 
       </div>
     </div>
+
     <!-- 澎湖美食饗宴 -->
     <div class="relative max-w-[1024px] w-full mx-auto h-full z-20">
       <div class="absolute -top-80 -right-16 z-0">
-        <img class="w-[480px] aspect-[3/2] object-contain" src="/ab-1.webp" alt="Penghu Food">
+        <NuxtImg format="webp" class="w-[480px] aspect-[3/2] object-contain" src="/ab-1.webp" alt="Penghu Food" />
       </div>
       <!-- Title -->
       <div class="relative p-6 bg-[#DBC24F] w-full flex flex-row justify-between">
         <!---->
         <div class="h-[160px] flex justify-center items-center">
-          <img class="w-[120px] sm:w-[240px] aspect-[1/1] sm:aspect-[3/2] object-contain" src="/info-3.png">
+          <NuxtImg format="webp" class="w-[120px] sm:w-[240px] aspect-[1/1] sm:aspect-[3/2] object-contain" src="/info-3.png" />
         </div>
         <!---->
         <ul class="flex flex-col justify-center items-end tracking-[2px]">
@@ -549,28 +438,14 @@ const skeleton = ref(true);
           <li class="text-gray-50 text-[18px] txt-Black text-right" style="text-shadow: 0.1em 0.1em 0.2em #3C3C3C">-精選美食系列-</li>
         </ul>
       </div>
-      <!-- skeletion Card -->
-      <div 
-      v-if="skeleton" 
-      class="mt-4 grid grid-cols-1">
-      
-      <!-- Skeletion -->
-      <div class="bg-white shadow-md p-4">
-        <div class="w-full h-40 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-full h-4 bg-gray-300 rounded mb-2 animate-pulse"></div>
-        <div class="w-1/2 h-8 bg-gray-300 rounded animate-pulse"></div>
-      </div>
 
-      </div>
       <!-- Card -->
       <div 
-      v-else
       data-aos="fade-up" data-aos-delay="150"
       class="mt-4 grid grid-cols-1">
         <div class="bg-gray-50 w-full h-full min-h-[600px] sm:min-h-[360px] flex flex-col sm:flex-row transition-transform hover:-translate-y-2">
           <div class="w-full sm:w-1/3 flex justify-center items-center pt-6">
-            <img class="w-[360px] aspect-[3/2] object-contain" src="/info-4.png">
+            <NuxtImg format="webp" loading="lazy" class="w-[360px] aspect-[3/2] object-contain" src="/info-4.png" />
           </div>
           <div class="relative w-full sm:w-2/3 h-full relative p-4 flex flex-col justify-center items-start">
             <div class="mb-24">
@@ -588,10 +463,10 @@ const skeleton = ref(true);
             </div>
 
             <div class="absolute right-0 sm:right-4 -bottom-0 sm:top-4">
-              <img class="w-[160px] lg:w-[240px] aspect-[3/2] object-contain" src="/info-5.png">
+              <NuxtImg format="webp" loading="lazy" class="w-[160px] lg:w-[240px] aspect-[3/2] object-contain" src="/info-5.png" />
             </div>
             <div class="absolute left-0 sm:left-96 bottom-0">
-              <img class="w-[180px] sm:w-[360px] aspect-[3/2] object-contain" src="/info-6.png">
+              <NuxtImg format="webp" loading="lazy" class="w-[180px] sm:w-[360px] aspect-[3/2] object-contain" src="/info-6.png" />
             </div>
 
           </div>
@@ -600,15 +475,15 @@ const skeleton = ref(true);
     </div>
     <!-- left -->
     <div class="absolute bottom-[960px] -left-24 z-0">
-      <img class="w-full" src="/ab-4.webp">
+      <NuxtImg format="webp" class="w-full" src="/ab-4.webp" />
     </div>
     <!-- right -->
     <div class="absolute bottom-[1320px] -right-60 z-0">
-      <img class="w-full" src="/ab-3.webp">
+      <NuxtImg format="webp" class="w-full" src="/ab-3.webp" />
     </div>
     <!-- bottom -->
     <div class="absolute -bottom-12 sm:-bottom-36 right-0 z-0">
-      <img class="w-full" src="/ab-2.webp">
+      <NuxtImg format="webp" class="w-full" src="/ab-2.webp" />
     </div>
   </div>
   <!-- -->

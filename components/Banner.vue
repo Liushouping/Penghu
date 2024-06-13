@@ -23,19 +23,19 @@
         </div>
         <!-- 航海王夥伴 -->
         <div class="absolute -bottom-6 sm:-bottom-4">
-            <img class="w-[960px] sm:w-[720px] 2xl:w-[960px] aspect-[3/2] object-contain" src="/25th.webp" alt="onepiece 25th">
+            <NuxtImg preload format="webp" class="w-[960px] sm:w-[720px] 2xl:w-[960px] aspect-[3/2] object-contain" src="/25th.webp" alt="onepiece 25th" />
         </div>
         <!-- 澎湖 Logo -->
         <div class="absolute -right-4 sm:right-0 top-4 z-10">
-            <img class="w-[75px] sm:w-[90px] lg:w-[180px] aspect-[3/2] object-contain" src="/penghu.png" alt="penghu">
+            <NuxtImg preload format="webp" class="w-[75px] sm:w-[90px] lg:w-[180px] aspect-[3/2] object-contain" src="/penghu.png" alt="penghu" />
         </div>
         <!-- 東映 Logo -->
         <div class="absolute -left-2 sm:left-4 bottom-4 z-10">
-            <img class="w-[75px] sm:w-[120px] lg:w-[180px] aspect-[3/2] object-contain" src="/toei.png" alt="toei">
+            <NuxtImg preload format="webp" class="w-[75px] sm:w-[120px] lg:w-[180px] aspect-[3/2] object-contain" src="/toei.png" alt="toei" />
         </div>
         <!-- 航海王 Logo -->
         <div class="absolute right-2 sm:right-16 bottom-4 z-10">
-            <img class="w-[75px] sm:w-[90px] lg:w-[180px] aspect-[3/2] object-contain" src="/onepiece.png" alt="onepiece">
+            <NuxtImg preload format="webp" class="w-[75px] sm:w-[90px] lg:w-[180px] aspect-[3/2] object-contain" src="/onepiece.png" alt="onepiece" />
         </div>
     </div>
 </template>

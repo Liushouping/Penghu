@@ -7,7 +7,7 @@
 			<div class="max-w-[80%] w-full flex flex-col sm:flex-row justify-between items-center z-20">
                 <!--  -->
 				<NuxtLink to="/">
-					<img src="https://one-piece.com/common-one-piece/img/contents/header/logo.png" class="w-[90px]" alt="bbtaipei logo">
+					<NuxtImg format="webp" src="https://one-piece.com/common-one-piece/img/contents/header/logo.png" class="w-[90px]" alt="bbtaipei logo" />
 				</NuxtLink>
                 <!--  -->
                 <ul class="flex flex-row space-x-4 txt-thin">
