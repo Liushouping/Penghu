@@ -1,9 +1,5 @@
 <script setup>
-// import data from '~/data/travel.json';
-// const title = data.title;
-
   const alert = ref(false);
-
   onMounted(() => {
     document.oncontextmenu = function() {
       alert.value = true;
@@ -77,7 +73,8 @@
       </div>
 
       <!-- Card -->
-      <div 
+       <FoodCard />
+      <!-- <div 
       data-aos="fade-up" data-aos-delay="150"
       class="mt-4 grid grid-cols-1">
         <div class="bg-gray-50 w-full h-full min-h-[600px] sm:min-h-[360px] flex flex-col sm:flex-row transition-transform hover:-translate-y-2">
@@ -108,7 +105,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       
     </div>
     <!-- left -->
