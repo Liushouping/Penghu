@@ -36,13 +36,6 @@ export default defineNuxtConfig({
   //   url: 'https://bbtaipei.com',
   //   name: 'BB TAIPEI',
   // },
-  // gtag: {
-  //   id: '',
-  //   config: {
-  //     page_title: 'BBtaipei',
-
-  //   }
-  // },
   css: ['~/assets/css/base.css'],
   postcss: {
     plugins: {

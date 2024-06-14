@@ -6,9 +6,8 @@ const GoScroll = () => {
 function Top() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
-
 onMounted(() => {
-  window.addEventListener('scroll', GoScroll);
+	window.addEventListener('scroll', GoScroll);
 });
 onBeforeUnmount(() => {
 	window.removeEventListener('scroll', GoScroll);
@@ -48,7 +47,8 @@ onBeforeUnmount(() => {
 				<span class="text-[10px] text-black txt-thin xl:font-medium hidden sm:flex">FB</span>
 			</li>
 			<li class="flex flex-col justify-center items-center space-y-1">
-				<button
+				<button 
+				type="button"
 				@click="Top">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 sm:w-6 sm:h-6 text-gray-950">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />

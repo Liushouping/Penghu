@@ -92,6 +92,7 @@ const StoreCards = [
             :to="card.link" 
             target="_blank" 
             data-aos="fade-up" 
+            data-aos-once="true"
             :data-aos-delay="card.delay" 
             external
         >
